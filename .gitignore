@@ -1,0 +1,8 @@
+.obsidian/workspace*
+.obsidian/cache
+01.RAW/assets/
+07.SITES/*/node_modules/
+07.SITES/*/dist/
+07.SITES/*/.astro/
+.DS_Store
+*.log

@@ -1,0 +1,14 @@
+---
+description: Правила для Astro-сайтов
+globs: 07.SITES/**/*
+alwaysApply: false
+---
+
+# Astro Sites Rules
+
+- Используй Astro 4+, TypeScript, Tailwind
+- Все страницы — static (output: 'static')
+- Каждая review-страница: schema.org Review + Organization
+- Картинки: <Image /> компонент с lazy loading
+- Sitemap.xml через @astrojs/sitemap
+- Hreflang: ro-RO во всех <head>
