@@ -1,13 +1,10 @@
+---
 description: Правила для wiki-страниц
 globs: 02.WIKI/**/*.md
 alwaysApply: false
 ---
-
 # Wiki Pages Rules
-
-При создании или редактировании любого файла в 02.WIKI/:
-
-1. ОБЯЗАТЕЛЬНО YAML-frontmatter с полями: title, type, lang, created, sources, related, tags
-2. Минимум 3 cross-links [[link]] на каждой странице
-3. Структура: H1 → краткое intro → H2 секции → H3 при необходимости
-4. После создания страницы — допиши её в 02.WIKI/index.md в нужную категорию
+- ОБЯЗАТЕЛЬНО YAML-frontmatter (PAGE FORMAT в .cursorrules)
+- Минимум 3 cross-links [[link]] на странице
+- Type ДОЛЖЕН соответствовать подпапке
+- После создания — добавь в 02.WIKI/index.md в нужную секцию

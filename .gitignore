@@ -4,5 +4,9 @@
 07.SITES/*/node_modules/
 07.SITES/*/dist/
 07.SITES/*/.astro/
+scripts/node_modules/
+scripts/package-lock.json
+logs/*.log
+.env
+.env.local
 .DS_Store
-*.log

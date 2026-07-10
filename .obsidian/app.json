@@ -1,1 +1,6 @@
-{}
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01.RAW/web-clips",
+  "attachmentFolderPath": "./imgs"
+}

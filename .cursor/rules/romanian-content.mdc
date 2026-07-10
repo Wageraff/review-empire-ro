@@ -1,13 +1,11 @@
+---
 description: Правила румынского контента
 globs: 07.SITES/**/*.{md,mdx,astro,html}, 02.WIKI/**/*.md
 alwaysApply: false
 ---
-
 # Romanian Content Rules
-
-- Язык: ro-RO. Никаких слов на en/ru в финальном контенте.
-- Используй локальные термины: pariuri sportive, cote, bonus, rulaj, retragere
-- Запрещены кальки: "este important să" → используй "merită să"
-- Числа: 1.000.000 (точка как разделитель тысяч в RO)
+- Язык: ro-RO
+- Диакритика: ă, â, î, ș, ț
+- Числа: 1.000.000 (точка = разделитель)
 - Валюта: RON / lei
 - Даты: DD.MM.YYYY
