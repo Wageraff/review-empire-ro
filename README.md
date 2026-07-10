@@ -6,7 +6,8 @@
 - 01.RAW — сырые исходники (Ahrefs CSV, скриншоты, PDF)
 - 02.WIKI — автогенерируемая Wiki (Cursor пишет, я читаю)
 - 03.SEO — стратегия и план контента
-- 04.COMPETITORS — досье букмекеров
+- 04.BRANDS — досье букмекеров (branduri)
+- 04.5.REVIEW-COMPETITORS — досье review-сайтов конкурентов
 - 07.SITES — Astro-проекты сайтов
 
 ## Workflow

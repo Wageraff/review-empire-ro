@@ -1,53 +1,151 @@
 # Wiki Index
 
-> Каталог всех страниц Wiki. LLM читает этот файл первым при любом query.
+> Каталог живой базы знаний. Cursor читает первым при любом query.
+> Формат: `[[link]] — one-line summary`
 
-## Конкуренты (букмекеры)
+---
 
-| Страница | Описание |
-|----------|----------|
-| [[competitors-overview]] | Lineup 20 branduri, tabel comparativ, schimbări lineup |
-| `04.COMPETITORS/betano.md` | Dosar Betano — lider piață RO |
-| `04.COMPETITORS/superbet.md` | Dosar Superbet |
-| `04.COMPETITORS/unibet.md` | Dosar Unibet |
-| `04.COMPETITORS/fortuna.md` | Dosar Fortuna (efortuna.ro) |
-| `04.COMPETITORS/casa-pariurilor.md` | Dosar Casa Pariurilor (ex-PublicWin) |
-| `04.COMPETITORS/vbet.md` | Dosar Vbet / Victorybet |
-| `04.COMPETITORS/maxbet.md` | Dosar Maxbet |
-| `04.COMPETITORS/topbet.md` | Dosar TopBet (ex-Mozzartbet) |
-| `04.COMPETITORS/favbet.md` | Dosar Favbet |
-| `04.COMPETITORS/getsbet.md` | Dosar Gets Bet |
-| `04.COMPETITORS/stanleybet.md` | Dosar Stanleybet |
-| `04.COMPETITORS/winbet.md` | Dosar Winbet |
-| `04.COMPETITORS/betfair.md` | Dosar Betfair (exchange) |
-| `04.COMPETITORS/totogaming.md` | Dosar Totogaming |
-| `04.COMPETITORS/12xbet.md` | Dosar 12xBet (brand suplimentar) |
-| `04.COMPETITORS/don-ro.md` | Dosar Don.ro (ex-AdmiralBet) |
-| `04.COMPETITORS/888sport.md` | Dosar 888 Sport |
-| `04.COMPETITORS/netbet.md` | Dosar NetBet |
-| `04.COMPETITORS/pokerstars.md` | Dosar PokerStars Sports |
-| `04.COMPETITORS/winmasters.md` | Dosar Winmasters |
-
-## SEO и стратегия
-
-| Документ | Описание |
-|----------|----------|
-| `03.SEO/keyword-research.md` | Кластеры KW: pariuri sportive (7 кластеров), casino deferred |
-| `03.SEO/content-cluster-map.md` | Hub & Spoke: case-de-pariuri, bonusuri, aplicatii, plati, ponturi, ghid |
-| `03.SEO/master-plan.md` | 90-дневный план: 69 страниц, P1/P2/P3 |
-
-## Концепты ниши
-_(пока пусто)_
-
-## Регуляторика
+## 🏢 Букмекеры (Brands)
+> Концептуальные страницы про каждого букмекера-оператора.
+> Детальные досье с рейтингами: 04.BRANDS/
 
 | Страница | Описание |
 |----------|----------|
-| [[onjn-autoritate-reglementare]] | ONJN — роль, полномочия, что проверяет у лицензиатов |
-| [[cadru-legal-jocuri-noroc-romania]] | Законодательная база: OUG 77/2009, HG 111/2016, OG 82/2023 |
-| [[licente-onjn-clasa-i-ii-iii]] | Типы лицензий Clasa I (B2C), II (B2B), III (лотерея) |
-| [[taxe-si-costuri-operatori-jocuri-noroc]] | Налоги, сборы, GGR 21%, гарантии, взносы RG |
-| [[operatori-licentiati-onjn-2026]] | Реестр ~30 лицензированных операторов с доменами и CUI |
-| [[joc-responsabil-romania]] | Ответственная игра: лимиты, самоисключение, обязанности операторов |
-| [[restrictii-publicitate-jocuri-noroc]] | Рекламные ограничения, санкции, требования RG в рекламе |
-| [[definitie-joc-noroc-zone-gri-dfs-esports]] | Определение азартной игры, DFS/eSports, перспективы законодательства |
+| [[brands-overview]] | Lineup 20 branduri, tabel comparativ, grupuri operatori |
+| [[brands/betano]] | Betano — lider piață RO |
+| [[brands/superbet]] | Superbet — retail + online |
+| [[brands/unibet]] | Unibet — Kindred Group |
+| [[brands/fortuna]] | Fortuna — efortuna.ro |
+| [[brands/casa-pariurilor]] | Casa Pariurilor — casapariurilor.ro |
+| [[brands/vbet]] | Vbet / Victorybet |
+| [[brands/maxbet]] | Maxbet |
+| [[brands/topbet]] | TopBet (ex-Mozzartbet) |
+| [[brands/favbet]] | Favbet |
+| [[brands/getsbet]] | Gets Bet |
+| [[brands/stanleybet]] | Stanleybet |
+| [[brands/winbet]] | Winbet |
+| [[brands/betfair]] | Betfair — exchange |
+| [[brands/totogaming]] | Totogaming |
+| [[brands/12xbet]] | 12xBet |
+| [[brands/don-ro]] | Don.ro (ex-AdmiralBet) |
+| [[brands/888sport]] | 888 Sport |
+| [[brands/netbet]] | NetBet |
+| [[brands/pokerstars]] | PokerStars Sports |
+| [[brands/winmasters]] | Winmasters |
+
+---
+
+## 🎁 Бонусы — концепты типов
+> Что такое каждый тип бонуса, типичные условия, специфика RO рынка
+
+_(заполнится через ingest клипов bonuses)_
+
+- `[[bonuses/bonus-de-bun-venit]]` — приветственный бонус
+- `[[bonuses/fara-depunere]]` — no-deposit бонусы  
+- `[[bonuses/cashback]]` — кэшбэк
+- `[[bonuses/rotiri-gratuite]]` — фри-спины / фри-беты
+- `[[bonuses/pariu-fara-risc]]` — risk-free
+- `[[bonuses/incarcare]]` — reload
+- `[[bonuses/vip-loialitate]]` — VIP программы
+
+---
+
+## ⚽ Виды спорта — концепты для ставок
+> Специфика ставок на каждый вид, популярные лиги в RO
+
+- `[[sports/fotbal]]` — футбол (60% рынка RO)
+- `[[sports/tenis]]` — теннис (Simona Halep эффект)
+- `[[sports/baschet]]` — баскетбол
+- `[[sports/handbal]]` — гандбол
+- `[[sports/hochei]]` — хоккей
+- `[[sports/formula-1]]` — F1
+- `[[sports/esports]]` — киберспорт
+- `[[sports/volei]]` — волейбол
+- `[[sports/rugby]]` — регби
+
+---
+
+## 💳 Методы оплаты
+> Специфика платёжных систем для беттинга в RO
+
+- `[[payments/netopia]]` — Netopia (локальный RO)
+- `[[payments/mobilpay]]` — mobilPay (локальный RO)
+- `[[payments/skrill]]` — Skrill
+- `[[payments/neteller]]` — Neteller
+- `[[payments/paysafecard]]` — Paysafecard
+- `[[payments/carduri-bancare]]` — Visa/Mastercard
+- `[[payments/criptomonede]]` — Bitcoin, Ethereum (если применимо)
+- `[[payments/transfer-bancar]]` — банковский перевод
+
+---
+
+## 📱 Мобильные приложения
+> Общие концепты про приложения букмекеров (iOS/Android)
+
+- `[[apps/aplicatie-android]]` — Android специфика (APK, доступ)
+- `[[apps/aplicatie-ios]]` — iOS специфика
+- `[[apps/live-betting-mobil]]` — live-беттинг в приложениях
+- `[[apps/cash-out-mobil]]` — cash-out в приложениях
+- `[[apps/securitate-mobil]]` — безопасность мобильных приложений
+
+---
+
+## 📖 Базовые концепты (для гайдов)
+> Cursor использует при написании гайдов и обзоров
+
+- `[[guides-concepts/cota]]` — что такое коэффициент
+- `[[guides-concepts/rulaj-rollover]]` — рулаж/отыгрыш
+- `[[guides-concepts/value-betting]]` — value-стратегия
+- `[[guides-concepts/martingale]]` — Martingale стратегия
+- `[[guides-concepts/bankroll]]` — управление банкроллом
+- `[[guides-concepts/kelly-criterion]]` — критерий Келли
+- `[[guides-concepts/pariuri-1x2]]` — 1x2 ставки
+- `[[guides-concepts/pariuri-handicap]]` — handicap
+- `[[guides-concepts/pariuri-over-under]]` — over/under
+- `[[guides-concepts/live-betting]]` — live-ставки
+- `[[guides-concepts/cash-out]]` — cash-out
+- `[[guides-concepts/pariuri-multiple]]` — экспрессы/systems
+
+---
+
+## 📊 SEO-кластеры и стратегия
+> Тематические кластеры + анализ рынка
+
+- `[[seo/cluster-recenzii-case-pariuri]]` — обзоры букмекеров
+- `[[seo/cluster-bonusuri]]` — бонусные запросы
+- `[[seo/cluster-cum-sa-pariez]]` — обучающие запросы
+- `[[seo/cluster-aplicatii]]` — мобильные приложения
+- `[[seo/cluster-metode-plata]]` — способы оплаты
+- `[[seo/cluster-sport-specific]]` — по видам спорта
+- `[[seo/cluster-ponturi-predictii]]` — прогнозы (для Фазы 3)
+- `[[seo/content-gap-analysis]]` — упущенные темы
+
+---
+
+## ⚖️ Регуляторика (Румыния)
+> Юридические аспекты, налоги, ответственная игра
+
+- `[[regulatory/onjn-oficiul]]` — регулятор ONJN
+- `[[regulatory/licenta-clasa-1]]` — лицензии Класса I
+- `[[regulatory/impozit-castiguri]]` — налог на выигрыш (Legea 227/2015)
+- `[[regulatory/varsta-legala]]` — 18+ и верификация
+- `[[regulatory/joc-responsabil]]` — ответственная игра, autoexcludere
+- `[[regulatory/spalarea-banilor]]` — AML/KYC требования
+- `[[regulatory/publicitate]]` — правила рекламы азартных игр
+
+---
+
+## 📖 Глоссарий (термины)
+> Единая точка для всех терминов индустрии
+
+- `[[glossary/index]]` — алфавитный указатель
+- `[[glossary/cote-si-cotari]]` — коэффициенты и котировки
+- `[[glossary/tipuri-pariuri]]` — типы ставок
+- `[[glossary/termeni-bonus]]` — терминология бонусов
+
+---
+
+## 🔗 Внешние ссылки на детальные досье
+- **Букмекеры (детальные досье):** 04.BRANDS/
+- **Review-конкуренты (анализ сайтов):** 04.5.REVIEW-COMPETITORS/
+- **Стратегия сайта:** 03.SEO/

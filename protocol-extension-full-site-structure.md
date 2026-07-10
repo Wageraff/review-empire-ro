@@ -311,7 +311,7 @@ review-empire/
 │       └── ... (Cursor складывает сюда при написании review)
 ├── 02.WIKI/                            (уже есть, Cursor наполняет)
 ├── 03.SEO/                             (уже есть)
-├── 04.COMPETITORS/                     (уже есть, Cursor работает)
+├── 04.BRANDS/                     (уже есть, Cursor работает)
 ├── 05.TEMPLATES/                       ← НОВОЕ: расширяем
 │   ├── review-page.md                  ← шаблон обзора
 │   ├── bonus-page.md                   ← НОВОЕ: шаблон страницы бонуса
@@ -717,7 +717,7 @@ build sport hubs
   * Introducere (популярность в RO, ключевые лиги/турниры)
   * Tipuri de pariuri specifice pentru <sport>
   * Cele mai bune 5 case de pariuri pentru <sport> (топ-5 из 
-    04.COMPETITORS/, отсортировано по релевантности)
+    04.BRANDS/, отсортировано по релевантности)
   * Strategii de bază
   * Bonusuri specifice
   * Predictii recente (заглушка — блок будет заполняться через API)
@@ -800,7 +800,7 @@ build homepage
    - CTA "Vezi topul"
    
 2. Rating TOP-15 (главный компонент)
-   - Таблица/карточки топ-15 букмекеров из 04.COMPETITORS/
+   - Таблица/карточки топ-15 букмекеров из 04.BRANDS/
    - Колонки: rang, logo, name, rating (звёзды), bonus principal, 
      rating pentru (fotbal/tenis/baschet), CTA "Vezi recenzia"
    - Фильтры (sport, bonus, rating min.)

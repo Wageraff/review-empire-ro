@@ -76,7 +76,7 @@
 
 **Quick wins (KD<15):** 12xbet (KD2), winmasters (KD0), casa pariurilor (KD11), topbet (KD26), vbet romania (KD28)
 
-**Бренды для страниц** (licență ONJN, pariuri cotă fixă, lineup start — 20): Betano, Superbet, Unibet, Fortuna, Casa Pariurilor, Vbet, Maxbet, TopBet, Favbet, Gets Bet, Stanleybet, Winbet, Betfair, Totogaming, 12xBet, Don.ro, 888 Sport, NetBet, PokerStars, Winmasters — см. [[competitors-overview]], [[operatori-licentiati-onjn-2026]]
+**Бренды для страниц** (licență ONJN, lineup start — 20): см. [[brands-overview]], `04.BRANDS/`, [[operatori-licentiati-onjn-2026]]
 
 ---
 

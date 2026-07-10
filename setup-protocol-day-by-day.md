@@ -146,7 +146,7 @@ pwd
 
 Создайте структуру одной командой:
 ```bash
-mkdir -p 00.SYSTEM 01.RAW/{ahrefs,competitors,regulatory,web-clips,assets} 02.WIKI 03.SEO 04.COMPETITORS 05.TEMPLATES 06.DESIGN 07.SITES 08.PBN
+mkdir -p 00.SYSTEM 01.RAW/{ahrefs,competitors,regulatory,web-clips,assets} 02.WIKI 03.SEO 04.BRANDS 05.TEMPLATES 06.DESIGN 07.SITES 08.PBN
 ```
 
 > **Что делает:** `mkdir -p` создаёт все папки рекурсивно. Фигурные скобки `{a,b,c}` создают сразу несколько подпапок внутри `01.RAW/`.
@@ -199,7 +199,7 @@ cat > README.md << 'EOF'
 - 01.RAW — сырые исходники (Ahrefs CSV, скриншоты, PDF)
 - 02.WIKI — автогенерируемая Wiki (Cursor пишет, я читаю)
 - 03.SEO — стратегия и план контента
-- 04.COMPETITORS — досье букмекеров
+- 04.BRANDS — досье букмекеров
 - 07.SITES — Astro-проекты сайтов
 
 ## Workflow
@@ -247,7 +247,7 @@ Obsidian = IDE, ты = программист, Wiki = codebase.
   - index.md (каталог) — обновляй при каждом ingest
   - log.md (журнал)    — формат: ## [YYYY-MM-DD] op | source
 - 03.SEO/             — keyword-research, content-cluster-map, master-plan
-- 04.COMPETITORS/     — досье букмекеров (1 файл = 1 букмекер)
+- 04.BRANDS/     — досье букмекеров (1 файл = 1 букмекер)
 - 05.TEMPLATES/       — паттерны страниц
 - 07.SITES/           — Astro-проекты
 
@@ -286,7 +286,7 @@ Obsidian = IDE, ты = программист, Wiki = codebase.
 3. Предложи 3–5 новых вопросов для исследования.
 
 ### generate-site <site-name>
-1. Прочитай 03.SEO/master-plan.md и 04.COMPETITORS/.
+1. Прочитай 03.SEO/master-plan.md и 04.BRANDS/.
 2. Возьми дизайн из 06.DESIGN/<site-name>-spec.md.
 3. Создай Astro-проект в 07.SITES/<site-name>/.
 4. Следуй анти-детект правилам из 08.PBN/pbn_network_requirements.md.
@@ -297,7 +297,7 @@ Obsidian = IDE, ты = программист, Wiki = codebase.
 ```yaml
 ---
 title: <название>
-type: competitor | concept | seo-cluster | regulatory | template
+type: brand-dossier | brand | concept | seo-cluster | regulatory | template
 lang: ro-RO
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -655,7 +655,7 @@ Cursor вернётся с предварительным анализом. Пр
 ```
 ingest 01.RAW/ahrefs/keywords/ + 01.RAW/web-clips/
 
-Создай в 04.COMPETITORS/ по одному файлу на каждого букмекера 
+Создай в 04.BRANDS/ по одному файлу на каждого букмекера 
 из списка (15-20 штук) по COMPETITOR DOSSIER FORMAT из .cursorrules.
 
 Источники для досье:
@@ -667,7 +667,7 @@ ingest 01.RAW/ahrefs/keywords/ + 01.RAW/web-clips/
 меня, какие дополнительные источники нужны.
 
 Параллельно обнови:
-- 02.WIKI/competitors-overview.md — сводная таблица всех букмекеров
+- 02.WIKI/brands-overview.md — сводная таблица всех букмекеров
 - 02.WIKI/index.md — все новые страницы в категорию "Конкуренты"
 
 Покажи мне план ДО старта: список 15-20 букмекеров + для каких из 
@@ -696,14 +696,14 @@ lint 02.WIKI/
 - `02.WIKI/` — 40-80 страниц
 - `02.WIKI/index.md` — структурированный каталог
 - `02.WIKI/log.md` — 4-5 записей о ingest'ах
-- `04.COMPETITORS/` — 15-20 досье
+- `04.BRANDS/` — 15-20 досье
 - `03.SEO/` — 3 файла стратегии
 
 ## ✅ Чек-лист конца Дня 5
 
 ```bash
 ls 02.WIKI/ | wc -l       # ≥40 файлов
-ls 04.COMPETITORS/ | wc -l # 15-20 файлов
+ls 04.BRANDS/ | wc -l # 15-20 файлов
 ls 03.SEO/                # keyword-research.md, content-cluster-map.md, master-plan.md
 cat 02.WIKI/log.md         # минимум 4-5 ingest записей
 ```
@@ -823,13 +823,13 @@ npm run build       # должно собраться БЕЗ ошибок
 ```
 generate-site site-01-ro
 
-Создай review-страницы для всех букмекеров из 04.COMPETITORS/.
+Создай review-страницы для всех букмекеров из 04.BRANDS/.
 
 Для каждого:
 - Путь: 07.SITES/site-01-ro/src/content/reviews/<slug>.md
 - Используй ReviewLayout
 - Длина: 2500-4500 слов (варьируй между букмекерами для уникальности)
-- Структура: см. 04.COMPETITORS/<bookmaker>.md
+- Структура: см. 04.BRANDS/<bookmaker>.md
 - Schema.org: Review + Organization
 - Внутренняя перелинковка: минимум 5 ссылок на другие страницы сайта
 
@@ -852,7 +852,7 @@ generate-site site-01-ro
 ```
 Теперь собери главную страницу 07.SITES/site-01-ro/src/pages/index.astro:
 - Hero: H1 с главным кейвордом + краткое intro 
-- Блок ТОП-15 (используй BookmakerTable, данные из 04.COMPETITORS/)
+- Блок ТОП-15 (используй BookmakerTable, данные из 04.BRANDS/)
 - Раздел "Как мы делаем рейтинги" → ссылка на /metodologie
 - Раздел "Категории": бонусы / спорт / платёжки → карточки
 - Раздел "Последние обзоры" → последние 6 review-карточек
@@ -990,7 +990,7 @@ git push -u origin main
 ingest 01.RAW/ahrefs/keywords/<refreshed>.csv
 
 Я выгрузил свежие данные Ahrefs за неделю. Обнови:
-- Позиции конкурентов в 04.COMPETITORS/
+- Позиции конкурентов в 04.BRANDS/
 - Content-gap.csv → проверь, какие новые ключи появились
 - Master-plan: если есть quick-wins — добавь в план на эту неделю
 ```
@@ -1018,7 +1018,7 @@ lint 02.WIKI/
 generate-site site-02-ro
 
 Создай 07.SITES/site-02-ro/ как Astro-проект.
-Используй те же данные из 04.COMPETITORS/, но:
+Используй те же данные из 04.BRANDS/, но:
 - Rewrite текстов ≥75% (другие формулировки, структура)
 - Другая палитра (см. 06.DESIGN/site-02-spec.md — создай её сначала)
 - Другая структура главной: карточки вместо таблицы
@@ -1042,7 +1042,7 @@ generate-site site-02-ro
 
 **Пример хорошего промпта:**
 ```
-@03.SEO/master-plan.md @04.COMPETITORS/superbet.md 
+@03.SEO/master-plan.md @04.BRANDS/superbet.md 
 
 Напиши review-страницу Superbet по нашему шаблону. Целевой кейворд: 
 "recenzie superbet" (объём 2400 / KD 18). 3500 слов. Verbatim quotes 

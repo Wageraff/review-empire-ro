@@ -70,7 +70,7 @@ Lista de mai jos reunește operatorii cu **licență Clasa I** activă, conform 
 
 1. **Review site-uri** — fiecare pagină de recenzie trebuie să confirme prezența în acest registru
 2. **Verificare licență expirată** — unele licențe din 2016 expiră în 2026 (NetBet, Level Up, Unibet, Betfair, PokerStars) — necesită reverificare ONJN
-3. **Cross-link competitori** — la crearea dosarelor în `04.COMPETITORS/`, folosește datele CUI și decizie de aici
+3. **Cross-link branduri** — la crearea dosarelor în `04.BRANDS/`, folosește datele CUI și decizie de aici
 
 ## Surse și actualizare
 

@@ -10,7 +10,7 @@ build homepage
    - CTA "Vezi topul"
    
 2. Rating TOP-15 (главный компонент)
-   - Таблица/карточки топ-15 букмекеров из 04.COMPETITORS/
+   - Таблица/карточки топ-15 букмекеров из 04.BRANDS/
    - Колонки: rang, logo, name, rating (звёзды), bonus principal, 
      rating pentru (fotbal/tenis/baschet), CTA "Vezi recenzia"
    - Фильтры (sport, bonus, rating min.)

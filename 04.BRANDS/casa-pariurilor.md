@@ -1,44 +1,82 @@
 ---
 title: Casa Pariurilor
-type: competitor
+slug: casa-pariurilor
+type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
 updated: 2026-07-10
+
+official_url: https://casapariurilor.ro
+launched_ro: 1993
+owner: Hattrick Online SRL
+onjn_license: Decizia nr. 453 / 29.05.2025
+license_valid: 01.07.2025 – 30.06.2035
+license_class: I
+country_origin: Malta
+cui: 50878823
+
+rating_overall: 7.3
+rating_cote: 7
+rating_bonusuri: 7
+rating_ux: 8
+rating_plati: 5
+rating_suport: 6
+rating_aplicatie: 8
+rating_licenta: 10
+
+best_for_sport: ['fotbal', 'tenis', 'baschet']
+best_for_bettors: ['retail']
+tags: [brand, pariuri-sportive, onjn, licenta-ro]
+
+wiki_concept: [[brands/casa-pariurilor]]
+related_bonuses: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/cashback]]
+related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
+
 sources: ['01.RAW/web-clips/reviews/Casa Pariurilor Pariuri Sportive în România → Recenzie 2024.md', '01.RAW/ahrefs/keywords/google_ro_casa-pariurilor_matching-terms_2026-07-10_09-13-10.csv']
-related: ['[[fortuna]]', '[[superbet]]', '[[stanleybet]]', '[[getsbet]]', '[[operatori-licentiati-onjn-2026]]']
-tags: [competitor, pariuri-sportive, onjn]
+related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/casa-pariurilor]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]', '[[brands/fortuna]]']
 ---
 
-# Casa Pariurilor — dosar competitor
+# Casa Pariurilor — Dosar brand
 
-**casapariurilor.ro** | Licență ONJN activă | CUI România: 50878823
+## Prezentare generală
 
-## Informații generale
+**casapariurilor.ro** | Licență ONJN activă | CUI: 50878823
+
+Casa Pariurilor este un operator licențiat ONJN în România, activ din 1993. Grup: Hattrick Online SRL. Date complete: [[operatori-licentiati-onjn-2026]].
+
+## Licențiere și securitate
 
 | Câmp | Detaliu |
 |------|---------|
 | Operator | Hattrick Online SRL |
 | Licență ONJN | Decizia nr. 453 / 29.05.2025 |
 | Valabilitate | 01.07.2025 – 30.06.2035 |
-| An intrare RO | 1993 (rețea fizică), online Hattrick 2025 |
-| Proprietar / grup | Hattrick Online / Fortuna Entertainment Group |
-| Domenii autorizate | casapariurilor.ro |
+| Clasă | I (jocuri de noroc online) |
+| Domenii | casapariurilor.ro |
 
-> Același operator ONJN ca [[fortuna]] (efortuna.ro), dar brand distinct. Înlocuiește PublicWin în lineup.
+Cadru legal: [[cadru-legal-jocuri-noroc-romania]], [[licente-onjn-clasa-i-ii-iii]].
 
-Date ONJN: [[operatori-licentiati-onjn-2026]]. Cadru legal: [[cadru-legal-jocuri-noroc-romania]].
-
-## Bonus de bun venit (pariuri sportive)
-
-600 RON (3×200 RON) sau 300 RON freebet total; alternativ 50 RON verificare + 250 RON freebet
-
-**Bonus fără depunere:** 50 RON la verificare cont
-
-## Sporturi și piețe de pariere
+## Oferta sportivă
 
 Fotbal, tenis, baschet, hochei, esports, live betting, live streaming selectiv
 
 Piețe cheie pentru RO: fotbal (Liga 1, Champions League), tenis (ATP/WTA), baschet (NBA, Euroligă). Vezi [[ghid-pariuri]] pentru tipuri de pariuri.
+
+Sporturi prioritare RO: fotbal, tenis, baschet. Concepte: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]].
+
+## Bonusuri
+
+**Bonus de bun venit:** 600 RON (3×200 RON) sau 300 RON freebet total; alternativ 50 RON verificare + 250 RON freebet
+
+**Bonus fără depunere:** 50 RON la verificare cont
+
+Vezi [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]].
+
+## Aplicații mobile
+
+iOS + Android — pariuri oriunde, notificări meciuri
+
+Detalii: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]].
 
 ## Metode de plată
 
@@ -46,52 +84,48 @@ Visa/Mastercard, Paysafecard, transfer bancar, Apple Pay, Okto Cash, Abon, agen�
 
 Plăți locale importante: Netopia/mobilPay unde e cazul, Okto.Cash, Aircash, Abon. Detalii hub: `/plati/` (planificat).
 
-## Aplicație mobilă
-
-iOS + Android — pariuri oriunde, notificări meciuri
+Metode RO: [[payments/carduri-bancare]], [[payments/skrill]], [[payments/paysafecard]], [[payments/netopia]].
 
 ## Suport clienți
 
 Chat, tel. 031.9884; ore variabile (10:00–22:00 sau 24/7 în surse diferite)
 
-## SEO — potențial Ahrefs
+## Interfață și UX
 
-Keyword principal: **casa pariurilor (304K, KD11)**
+Rating UX: 8/10. Experiență mobilă: 8/10.
 
 ## Avantaje
 
-- Rețea agenții fizice extinsă
-- Cash out disponibil
-- Licență nouă până în 2035
-- Interfață intuitivă
-- Esports și pariuri live
+- ✅ Rețea agenții fizice extinsă
+- ✅ Cash out disponibil
+- ✅ Licență nouă până în 2035
+- ✅ Interfață intuitivă
+- ✅ Esports și pariuri live
 
 ## Dezavantaje
 
-- Ofertă pre-meci medie vs lideri
-- Puține piețe live pe unele sporturi
-- Reclamații retrageri în forumuri
-- Cash out instabil raportat
-- Bonusuri inconsistente între surse
+- ❌ Ofertă pre-meci medie vs lideri
+- ❌ Puține piețe live pe unele sporturi
+- ❌ Reclamații retrageri în forumuri
+- ❌ Cash out instabil raportat
+- ❌ Bonusuri inconsistente între surse
 
-## Rating intern (1–10)
+## Concluzie
 
-| Criteriu | Scor |
-|----------|------|
-| Bonusuri | 7/10 |
-| Cote | 7/10 |
-| UX / interfață | 8/10 |
-| Viteză plăți | 5/10 |
-| Suport | 6/10 |
+Casa Pariurilor este potrivit pentru pariori care caută retail. Verifică T&C live înainte de înregistrare.
+
+## SEO Ahrefs
+
+casa pariurilor (304K, KD11)
 
 ## Screenshots / assets
 
-- `01.RAW/assets/casa-pariurilor/no-photo_little 17.png`
-- `01.RAW/assets/casa-pariurilor/65b379a7687bf_1706260903-102x64 16.png`
-- `01.RAW/assets/casa-pariurilor/casa-pariurilor-apk.jpeg`
-- `01.RAW/assets/casa-pariurilor/casa-pariurilor-lucky-six.png`
-- `01.RAW/assets/casa-pariurilor/cp-bonus-sport-principal.jpg`
-- `01.RAW/assets/casa-pariurilor/bilet 4.jpg`
+- ``01.RAW/assets/casa-pariurilor/no-photo_little 17.png``
+- ``01.RAW/assets/casa-pariurilor/65b379a7687bf_1706260903-102x64 16.png``
+- ``01.RAW/assets/casa-pariurilor/casa-pariurilor-apk.jpeg``
+- ``01.RAW/assets/casa-pariurilor/casa-pariurilor-lucky-six.png``
+- ``01.RAW/assets/casa-pariurilor/cp-bonus-sport-principal.jpg``
+- ``01.RAW/assets/casa-pariurilor/bilet 4.jpg``
 
 ## Note interne
 

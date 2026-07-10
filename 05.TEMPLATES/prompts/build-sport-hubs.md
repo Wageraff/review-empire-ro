@@ -24,7 +24,7 @@ build sport hubs
   * Introducere (популярность в RO, ключевые лиги/турниры)
   * Tipuri de pariuri specifice pentru <sport>
   * Cele mai bune 5 case de pariuri pentru <sport> (топ-5 из 
-    04.COMPETITORS/, отсортировано по релевантности)
+    04.BRANDS/, отсортировано по релевантности)
   * Strategii de bază
   * Bonusuri specifice
   * Predictii recente (заглушка — блок будет заполняться через API)
