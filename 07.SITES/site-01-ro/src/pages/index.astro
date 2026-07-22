@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TrustBar from '../components/TrustBar.astro';
+import PageHero from '../components/PageHero.astro';
+import RatingTable from '../components/RatingTable.astro';
+import HubCards from '../components/HubCards.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import { marked } from 'marked';
+import { loadPageBundle } from '../lib/pages';
+import { SITE } from '../lib/site';
+import { BRANDS, HOMEPAGE_TOP } from '../data/brands';
+
+const { draft, meta, bodyMd } = loadPageBundle('homepage');
+
+// Split FAQ out of body for component; keep rest as prose
+const faqMatch = bodyMd.match(/## Întrebări frecvente\n([\s\S]*?)(?=\n## |\n*$)/i);
+const faqItems: { q: string; a: string }[] = [];
+if (faqMatch) {
+  const re = /<details><summary>(.*?)<\/summary>(.*?)<\/details>/gis;
+  let m;
+  while ((m = re.exec(faqMatch[1]))) {
+    faqItems.push({ q: m[1].trim(), a: m[2].replace(/<[^>]+>/g, '').trim() });
+  }
+}
+const bodyWithoutFaq = bodyMd.replace(/## Întrebări frecvente[\s\S]*$/i, '').trim();
+
+const html = marked.parse(bodyWithoutFaq);
+
+const topRows = HOMEPAGE_TOP.map((slug) => {
+  const b = BRANDS[slug];
+  return {
+    name: b.name,
+    rating: b.rating,
+    strength: b.strength,
+    license: b.license,
+    href: b.reviewUrl,
+    logoSrc: b.logoSrc,
+    affiliateUrl: b.affiliateUrl,
+    ctaLabel: b.ctaLabel,
+  };
+});
+const hubs = [
+  { href: '/bonusuri/', label: 'Bonusuri', desc: 'Bun venit, fără depunere, cashback și cote mărite' },
+  { href: '/sport/fotbal/', label: 'Sport', desc: 'Hub-uri pe fotbal, tenis, baschet și altele' },
+  { href: '/ghiduri/', label: 'Ghiduri', desc: 'Noțiuni de bază, tipuri de pariuri, bankroll' },
+  { href: '/aplicatii/', label: 'Aplicații', desc: 'iOS și Android — recenzii pe operatori' },
+  { href: '/metode-de-plata/', label: 'Plăți', desc: 'Depuneri și retrageri pe metode' },
+  { href: '/metodologie/', label: 'Metodologie', desc: 'Cum notăm casele de pariuri' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', name: SITE.name, url: SITE.url, inLanguage: 'ro-RO' },
+    { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  ],
+};
+---
+
+<BaseLayout
+  title={meta.metaTitle || draft.frontmatter.title}
+  description={meta.metaDescription || SITE.tagline}
+  canonical="/"
+  schemaJson={schema}
+>
+  <PageHero
+    title={meta.h1 || draft.frontmatter.title}
+    lede="Compară case licențiate ONJN, bonusuri și ghiduri — informații verificate pentru piața din România."
+  />
+  <TrustBar updated={draft.frontmatter.updated} />
+
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <RatingTable rows={topRows} caption="Top case de pariuri — selecție editorială" />
+    <HubCards title="Explorează pe categorii" links={hubs} />
+
+    <article class="bt-prose mt-12" set:html={html} />
+
+    {
+      faqItems.length > 0 && (
+        <FAQAccordion items={faqItems.slice(0, 7)} />
+      )
+    }
+
+    <p class="mt-8 text-sm text-muted">
+      Vezi clasamentul complet:
+      <a href="/top-case-de-pariuri/" class="font-semibold text-primary">top case de pariuri</a>
+      ·
+      <a href="/metodologie/" class="font-semibold text-primary">metodologie</a>
+    </p>
+  </div>
+</BaseLayout>

@@ -4,7 +4,7 @@ slug: vbet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://victorybet.ro
 launched_ro: 2024
@@ -34,6 +34,9 @@ related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
 
 sources: 
 related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/vbet]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]', '[[brands/betano]]']
+# Stage 2 flags
+pariuri_secondary: true
+
 ---
 
 # Vbet (Victorybet) — Dosar brand
@@ -129,3 +132,11 @@ vbet (104K, KD46) | vbet romania (2.3K, KD28)
 ## Note interne
 
 Operator separat de 12xBet (Level Up Interactive). Ambele branduri sunt în lineup-ul de start.
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

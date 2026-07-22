@@ -4,7 +4,7 @@ slug: 888sport
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://888sport.ro
 launched_ro: 2023
@@ -34,6 +34,9 @@ related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
 
 sources: ['01.RAW/web-clips/reviews/888 Sport pariuri sportive - bonus de bun venit pana la 500 de lei + 40 rotiri gratuite.md', '01.RAW/ahrefs/keywords/google_ro_888-sport_matching-terms_2026-07-09_12-49-15.csv']
 related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/888sport]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]']
+# Stage 2 flags
+pariuri_secondary: true
+
 ---
 
 # 888 Sport — Dosar brand
@@ -122,3 +125,11 @@ Rating UX: 8/10. Experiență mobilă: 7/10.
 - ``01.RAW/assets/888sport/888sportregister.jpg``
 - ``01.RAW/assets/888sport/888ofertafotbal.jpg``
 - ``01.RAW/assets/888sport/oferta-888-sport-cm.jpg``
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

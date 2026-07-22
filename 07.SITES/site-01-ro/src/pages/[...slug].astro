@@ -1,0 +1,28 @@
+---
+import DraftPage from '../components/DraftPage.astro';
+import { loadReadyPages, urlToSlugParam } from '../lib/pages';
+
+export function getStaticPaths() {
+  const pages = loadReadyPages().filter((p) => p.type !== 'HOMEPAGE' && p.url !== '/');
+  return pages.map((p) => ({
+    params: { slug: urlToSlugParam(p.url) },
+    props: {
+      draftSlug: p.slug,
+      type: p.type,
+      url: p.url,
+      title: p.title,
+    },
+  }));
+}
+
+interface Props {
+  draftSlug: string;
+  type: string;
+  url: string;
+  title: string;
+}
+
+const { draftSlug, type, url, title } = Astro.props;
+---
+
+<DraftPage slug={draftSlug} type={type} url={url} title={title} />

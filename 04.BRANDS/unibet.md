@@ -4,7 +4,7 @@ slug: unibet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://unibet.ro
 launched_ro: 2016
@@ -130,3 +130,11 @@ unibet (121K, KD60)
 ## Note interne
 
 Reverificare ONJN obligatorie în 2026.
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

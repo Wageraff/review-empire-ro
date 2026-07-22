@@ -1,0 +1,14 @@
+---
+interface Props {
+  message?: string;
+}
+
+const {
+  message = 'Secțiunea de ponturi este în pregătire. Vom publica predicții pe meciuri după conectarea sursei de date (Faza 3).',
+} = Astro.props;
+---
+
+<aside class="my-8 rounded-lg border border-dashed border-accent/40 bg-amber-50 px-5 py-4 text-sm text-text">
+  <p class="font-semibold text-primary">În curând</p>
+  <p class="mt-1 text-muted">{message}</p>
+</aside>

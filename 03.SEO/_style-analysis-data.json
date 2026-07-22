@@ -1,0 +1,550 @@
+{
+  "legalbet": {
+    "domain": "legalbet.ro",
+    "clip_count": 20,
+    "top_n": 20,
+    "avg": {
+      "sent_avg": 15.2,
+      "para_avg": 19.6,
+      "h2": 11.3,
+      "h3": 26.2,
+      "lists": 45.9,
+      "tables": 18.6,
+      "imper": 14.2,
+      "second_person": 33.1,
+      "ctas": 94.0,
+      "nums": 113.5,
+      "nums_per_1k": 19.3,
+      "pariuri sportive": 6.0,
+      "casa de pariuri": 10.7,
+      "cote": 25.9,
+      "rulaj": 4.3,
+      "fără depunere": 1.6,
+      "cash-out": 0.8,
+      "handicap": 6.8,
+      "freebet": 3.9,
+      "rotiri gratuite": 1.6,
+      "depunere": 16.1,
+      "retragere": 12.0,
+      "bilet": 10.0,
+      "miza": 4.2,
+      "cliche": 0.3,
+      "emoji": 2.6,
+      "sents": 366.9,
+      "paras": 248.9,
+      "casă de pariuri": 0.6,
+      "bonus de bun venit": 3.5,
+      "pariu gratuit": 1.4,
+      "cotă": 1.8,
+      "verificare cont": 0.2,
+      "miză": 0.3,
+      "words": 5846,
+      "idioms_top": [
+        [
+          "sents",
+          7339
+        ],
+        [
+          "paras",
+          4978
+        ],
+        [
+          "nums",
+          2270
+        ],
+        [
+          "ctas",
+          1880
+        ],
+        [
+          "lists",
+          917
+        ],
+        [
+          "second_person",
+          663
+        ],
+        [
+          "h3",
+          524
+        ],
+        [
+          "cote",
+          517
+        ],
+        [
+          "para_avg",
+          392.90000000000003
+        ],
+        [
+          "nums_per_1k",
+          386.2
+        ],
+        [
+          "tables",
+          371
+        ],
+        [
+          "depunere",
+          321
+        ]
+      ]
+    },
+    "titles": [
+      "Winmasters pariuri sportive - 100% pana la 400 RON",
+      "Aplicația Fortuna Android și iOS – Pariuri oriunde! ⚽",
+      "Netbet pariuri sportive - Freebet de 600 RON",
+      "Betano pariuri sportive online - Cote cu marja 0%",
+      "Unibet pariuri sportive -",
+      "Bonus bun venit pana la 600 RON la primele 3 depuneri",
+      "Mr Bit pariuri sportive - Bonus de bun venit 200 RON freebet",
+      "Superbet pariuri sportive - Bonus pana la 500 RON"
+    ],
+    "top_files": [
+      "Winmasters pariuri sportive - 100% pana la 400 RON.md",
+      "Aplicația Fortuna Android și iOS – Pariuri oriunde! ⚽.md",
+      "Netbet pariuri sportive - Freebet de 600 RON.md",
+      "Betano pariuri sportive online - Cote cu marja 0%.md",
+      "Unibet pariuri sportive -.md"
+    ]
+  },
+  "beturi": {
+    "domain": "beturi.ro",
+    "clip_count": 39,
+    "top_n": 20,
+    "avg": {
+      "sent_avg": 13.5,
+      "para_avg": 33.6,
+      "h2": 13.4,
+      "h3": 13.3,
+      "lists": 84.3,
+      "tables": 11.0,
+      "imper": 10.4,
+      "second_person": 68.8,
+      "ctas": 103.7,
+      "nums": 75.5,
+      "nums_per_1k": 16.9,
+      "pariuri sportive": 10.5,
+      "casa de pariuri": 0.8,
+      "cotă": 2.1,
+      "cote": 4.0,
+      "rulaj": 6.8,
+      "bonus de bun venit": 3.0,
+      "fără depunere": 6.3,
+      "pariu gratuit": 1.8,
+      "cash-out": 0.3,
+      "rotiri gratuite": 8.7,
+      "depunere": 27.5,
+      "retragere": 8.8,
+      "bilet": 9.9,
+      "miză": 1.5,
+      "miza": 3.4,
+      "cliche": 1.2,
+      "emoji": 6.2,
+      "sents": 327.9,
+      "paras": 132.4,
+      "casă de pariuri": 0.8,
+      "handicap": 0.8,
+      "freebet": 6.7,
+      "verificare cont": 0.7,
+      "words": 4545,
+      "idioms_top": [
+        [
+          "sents",
+          6557
+        ],
+        [
+          "paras",
+          2648
+        ],
+        [
+          "ctas",
+          2074
+        ],
+        [
+          "lists",
+          1687
+        ],
+        [
+          "nums",
+          1509
+        ],
+        [
+          "second_person",
+          1377
+        ],
+        [
+          "para_avg",
+          672.6
+        ],
+        [
+          "depunere",
+          550
+        ],
+        [
+          "nums_per_1k",
+          337.2
+        ],
+        [
+          "sent_avg",
+          270.50000000000006
+        ],
+        [
+          "h2",
+          268
+        ],
+        [
+          "h3",
+          267
+        ]
+      ]
+    },
+    "titles": [
+      "Casa Pariurilor",
+      "Don Casino",
+      "Maxbet Pariuri Online - Bonusuri de până la 700 RON",
+      "Betano",
+      "NetBet",
+      "Elite Slots Online 2025 - Bonus 2500 RON + 500 Rotiri!",
+      "Vivabet Online 2026 - 5000 RON + 1000 rotiri gratuite!",
+      "Fortuna"
+    ],
+    "top_files": [
+      "Casa Pariurilor.md",
+      "Don Casino.md",
+      "Maxbet Pariuri Online - Bonusuri de până la 700 RON.md",
+      "Betano.md",
+      "NetBet.md"
+    ]
+  },
+  "10pariuri": {
+    "domain": "10pariuri.ro",
+    "clip_count": 33,
+    "top_n": 20,
+    "avg": {
+      "sent_avg": 13.2,
+      "para_avg": 17.5,
+      "h2": 9.4,
+      "h3": 14.7,
+      "lists": 36.6,
+      "tables": 5.5,
+      "imper": 11.3,
+      "second_person": 38.8,
+      "ctas": 101.9,
+      "nums": 69.2,
+      "nums_per_1k": 18.9,
+      "pariuri sportive": 3.5,
+      "casă de pariuri": 1.6,
+      "casa de pariuri": 1.9,
+      "cotă": 1.8,
+      "cote": 6.2,
+      "rulaj": 5.2,
+      "bonus de bun venit": 2.9,
+      "fără depunere": 5.7,
+      "pariu gratuit": 1.6,
+      "cash-out": 0.8,
+      "freebet": 2.9,
+      "rotiri gratuite": 5.1,
+      "verificare cont": 0.5,
+      "depunere": 34.0,
+      "retragere": 11.4,
+      "bilet": 9.1,
+      "miza": 3.4,
+      "cliche": 0.8,
+      "emoji": 0.2,
+      "sents": 250.3,
+      "paras": 180.6,
+      "miză": 0.5,
+      "live betting": 0.1,
+      "handicap": 0.5,
+      "words": 3646,
+      "idioms_top": [
+        [
+          "sents",
+          5006
+        ],
+        [
+          "paras",
+          3611
+        ],
+        [
+          "ctas",
+          2038
+        ],
+        [
+          "nums",
+          1383
+        ],
+        [
+          "second_person",
+          776
+        ],
+        [
+          "lists",
+          733
+        ],
+        [
+          "depunere",
+          680
+        ],
+        [
+          "nums_per_1k",
+          377.59999999999997
+        ],
+        [
+          "para_avg",
+          349.7
+        ],
+        [
+          "h3",
+          293
+        ],
+        [
+          "sent_avg",
+          263.3
+        ],
+        [
+          "retragere",
+          228
+        ]
+      ]
+    },
+    "titles": [
+      "Superbet Pareri si Recenzii - Ce spun jucatorii in 2026?",
+      "Netbet Pareri - Recenzie completa la Casino si Pariuri",
+      "Betano Pareri si Recenzii",
+      "Casa Pariurilor Pareri si Recenzii in 2026",
+      "TotoGaming Casino Romania - Recenzia completă a operatorului",
+      "Gets Bet pariuri sportive online România - Recenzie 2026",
+      "12xbet Pareri si Recenzii de la Jucatori",
+      "Victory Bet Pareri - Recenzii Vbet Pariuri si Casino"
+    ],
+    "top_files": [
+      "Superbet Pareri si Recenzii - Ce spun jucatorii in 2026?.md",
+      "Netbet Pareri - Recenzie completa la Casino si Pariuri.md",
+      "Betano Pareri si Recenzii.md",
+      "Casa Pariurilor Pareri si Recenzii in 2026.md",
+      "2026-07-13-10pariuri.ro-totogaming-romania.md"
+    ]
+  },
+  "xbets": {
+    "domain": "xbets.ro",
+    "clip_count": 20,
+    "top_n": 20,
+    "avg": {
+      "sent_avg": 14.7,
+      "para_avg": 27.5,
+      "h2": 12.2,
+      "h3": 11.7,
+      "lists": 7.3,
+      "tables": 24.1,
+      "imper": 8.0,
+      "second_person": 39.7,
+      "ctas": 108.5,
+      "nums": 84.6,
+      "nums_per_1k": 25.0,
+      "pariuri sportive": 5.7,
+      "casă de pariuri": 3.2,
+      "casa de pariuri": 1.4,
+      "cotă": 3.2,
+      "cote": 3.7,
+      "rulaj": 4.0,
+      "bonus de bun venit": 3.0,
+      "fără depunere": 1.8,
+      "pariu gratuit": 6.5,
+      "freebet": 5.5,
+      "rotiri gratuite": 4.5,
+      "verificare cont": 1.3,
+      "depunere": 15.6,
+      "retragere": 6.2,
+      "bilet": 9.9,
+      "miza": 4.5,
+      "cliche": 0.6,
+      "emoji": 0.0,
+      "sents": 225.6,
+      "paras": 112.2,
+      "miză": 0.4,
+      "live betting": 0.2,
+      "cash-out": 0.1,
+      "handicap": 0.4,
+      "words": 3367,
+      "idioms_top": [
+        [
+          "sents",
+          4511
+        ],
+        [
+          "paras",
+          2245
+        ],
+        [
+          "ctas",
+          2171
+        ],
+        [
+          "nums",
+          1692
+        ],
+        [
+          "second_person",
+          794
+        ],
+        [
+          "para_avg",
+          550.6
+        ],
+        [
+          "nums_per_1k",
+          500.2000000000001
+        ],
+        [
+          "tables",
+          483
+        ],
+        [
+          "depunere",
+          311
+        ],
+        [
+          "sent_avg",
+          293.09999999999997
+        ],
+        [
+          "h2",
+          244
+        ],
+        [
+          "h3",
+          233
+        ]
+      ]
+    },
+    "titles": [
+      "Păreri Fortuna 2026: Recenzie integrală, bonusuri și detalii",
+      "Păreri Mr Bit 2026: Recenzie completă și informații jucători",
+      "Recenzie și păreri Betfair 2026, Pariuri, oferte și bonusuri",
+      "32Roșu Casino - Bonus 3.200 RON + 320 Rotiri Gratuite",
+      "Păreri Winner 2026: Recenzie, metode depunere și bonusuri",
+      "Păreri Betano 2026: Analiză Detaliată și Păreri ale Utilizatorilor",
+      "VictoryBet ✅ Pariu Gratuit 100% până la 200 LEI de Bun Venit",
+      "Zinx Casino ⚡100% Bonus de Bun Venit până la 200 LEI"
+    ],
+    "top_files": [
+      "2026-07-13-xbets.ro-fortuna.md",
+      "2026-07-13-xbets.ro-mr-bit.md",
+      "2026-07-13-xbets.ro-betfair.md",
+      "2026-07-13-xbets.ro-32rosu.md",
+      "2026-07-13-xbets.ro-winner.md"
+    ]
+  },
+  "pontul-zilei": {
+    "domain": "pontul-zilei.com",
+    "clip_count": 17,
+    "top_n": 17,
+    "avg": {
+      "sent_avg": 13.9,
+      "para_avg": 30.0,
+      "h2": 13.6,
+      "h3": 23.7,
+      "lists": 30.8,
+      "tables": 3.4,
+      "imper": 18.9,
+      "second_person": 68.0,
+      "ctas": 101.7,
+      "nums": 50.5,
+      "nums_per_1k": 10.3,
+      "pariuri sportive": 7.4,
+      "casa de pariuri": 0.4,
+      "cote": 8.7,
+      "bonus de bun venit": 3.1,
+      "live betting": 0.2,
+      "cash-out": 0.4,
+      "handicap": 1.0,
+      "freebet": 1.1,
+      "depunere": 26.2,
+      "retragere": 7.9,
+      "bilet": 5.1,
+      "miza": 5.4,
+      "cliche": 1.4,
+      "emoji": 0.0,
+      "sents": 353.0,
+      "paras": 167.5,
+      "casă de pariuri": 0.3,
+      "cotă": 0.2,
+      "rulaj": 1.4,
+      "fără depunere": 10.6,
+      "rotiri gratuite": 7.5,
+      "verificare cont": 0.2,
+      "miză": 1.3,
+      "pariu gratuit": 0.4,
+      "words": 5079,
+      "idioms_top": [
+        [
+          "sents",
+          6001
+        ],
+        [
+          "paras",
+          2848
+        ],
+        [
+          "ctas",
+          1729
+        ],
+        [
+          "second_person",
+          1156
+        ],
+        [
+          "nums",
+          859
+        ],
+        [
+          "lists",
+          523
+        ],
+        [
+          "para_avg",
+          509.2000000000001
+        ],
+        [
+          "depunere",
+          446
+        ],
+        [
+          "h3",
+          403
+        ],
+        [
+          "imper",
+          322
+        ],
+        [
+          "sent_avg",
+          237.1
+        ],
+        [
+          "h2",
+          232
+        ]
+      ]
+    },
+    "titles": [
+      "BETFAIR - pariuri avantajoase și promoții atractive",
+      "SUPERBET 🏆 100 lei Fără Depunere la Pariuri",
+      "NETBET 🏆 700 lei bonus pariuri",
+      "Unibet 🏆 750 RON pariu Fără Risc",
+      "888 CASINO 🏆 888 RON Free Bet - Recenzie și păreri 2026",
+      "WINBET 🏆 50 lei Free Bet la Pariuri",
+      "MAXBET 🏆 50 lei Bonus Pariuri Fără Depunere",
+      "BETANO 🏆 100 RON fără depunere la Pariuri"
+    ],
+    "top_files": [
+      "BETFAIR - pariuri avantajoase și promoții atractive.md",
+      "SUPERBET 🏆 100 lei Fără Depunere la Pariuri.md",
+      "NETBET 🏆 700 lei bonus pariuri.md",
+      "Unibet 🏆 750 RON pariu Fără Risc.md",
+      "888 CASINO 🏆 888 RON Free Bet - Recenzie și păreri 2026.md"
+    ]
+  }
+}

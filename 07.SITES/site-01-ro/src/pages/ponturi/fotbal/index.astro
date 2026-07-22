@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import TrustBar from '../../../components/TrustBar.astro';
+import ComingSoon from '../../../components/ComingSoon.astro';
+---
+
+<BaseLayout
+  title="Ponturi fotbal — în curând"
+  description="Hub de predicții pe fotbal (Liga 1 și competiții europene). În pregătire pe Betoteca."
+  canonical="/ponturi/fotbal/"
+>
+  <section class="border-b border-border bg-primary text-white">
+    <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+      <h1 class="font-heading text-3xl font-bold sm:text-4xl">Ponturi fotbal</h1>
+      <p class="mt-3 max-w-2xl text-slate-200">
+        Listing de prognoze pe meci — tip PREDICTION-SPORT-HUB (Faza 3).
+      </p>
+    </div>
+  </section>
+  <TrustBar />
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <ComingSoon message="Aici vor apărea predicțiile pe meciuri de fotbal, actualizate din API. Până la lansare, hub-ul rămâne rezervat ca structură URL." />
+    <ul class="mt-6 list-disc space-y-2 pl-5 text-sm text-muted">
+      <li>URL viitor meci: <code class="text-text">/ponturi/fotbal/&lt;meci-slug&gt;/</code></li>
+      <li>
+        Cross-link spre
+        <a href="/ponturi/pontul-zilei/" class="font-semibold text-primary">Pontul zilei</a>
+      </li>
+    </ul>
+  </div>
+</BaseLayout>

@@ -9,8 +9,13 @@
     "batch-bonuses": "node firecrawl-batch.js bonuses ../01.RAW/discovery/urls-bonuses.txt",
     "batch-guides": "node firecrawl-batch.js guides ../01.RAW/discovery/urls-guides.txt",
     "batch-ratings": "node firecrawl-batch.js ratings ../01.RAW/discovery/urls-ratings.txt",
-    "batch-sport": "node firecrawl-batch.js sport-categories ../01.RAW/discovery/urls-sport.txt",
-    "batch-all": "npm run batch-reviews && npm run batch-bonuses && npm run batch-guides && npm run batch-ratings && npm run batch-sport"
+    "batch-sport": "node firecrawl-batch.js sport-categories ../01.RAW/discovery/urls-sport-categories.txt",
+    "batch-apps": "node firecrawl-batch.js apps ../01.RAW/discovery/urls-apps.txt",
+    "batch-payments": "node firecrawl-batch.js payments ../01.RAW/discovery/urls-payments.txt",
+    "batch-retail": "node firecrawl-batch.js retail ../01.RAW/discovery/urls-retail.txt",
+    "batch-player-reviews": "node firecrawl-batch.js player-reviews ../01.RAW/discovery/urls-player-reviews.txt",
+    "batch-all": "node batch-all.js",
+    "postprocess": "node postprocess-clips.js"
   },
   "keywords": [],
   "author": "",

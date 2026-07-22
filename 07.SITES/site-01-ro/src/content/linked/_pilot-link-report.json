@@ -1,0 +1,51 @@
+{
+  "pages": [
+    {
+      "slug": "homepage",
+      "resolved": 10,
+      "pending": 0
+    },
+    {
+      "slug": "review-betano",
+      "resolved": 20,
+      "pending": 0
+    },
+    {
+      "slug": "bonus-de-bun-venit-betano",
+      "resolved": 7,
+      "pending": 0
+    },
+    {
+      "slug": "eat-despre-noi",
+      "resolved": 5,
+      "pending": 0
+    },
+    {
+      "slug": "eat-metodologie",
+      "resolved": 5,
+      "pending": 0
+    },
+    {
+      "slug": "eat-contact",
+      "resolved": 5,
+      "pending": 0
+    },
+    {
+      "slug": "eat-termeni-si-conditii",
+      "resolved": 5,
+      "pending": 0
+    },
+    {
+      "slug": "eat-politica-de-confidentialitate",
+      "resolved": 6,
+      "pending": 0
+    },
+    {
+      "slug": "eat-joc-responsabil",
+      "resolved": 5,
+      "pending": 0
+    }
+  ],
+  "totalResolved": 68,
+  "pending": []
+}

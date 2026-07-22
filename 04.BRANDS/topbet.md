@@ -4,7 +4,7 @@ slug: topbet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://topbet.ro
 launched_ro: 2025
@@ -34,6 +34,9 @@ related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
 
 sources: ['01.RAW/web-clips/reviews/TopBet Pariuri Sportive 🏅 1200 RON la depunere.md', '01.RAW/ahrefs/keywords/google_ro_topbet_matching-terms_2026-07-10_09-12-59.csv']
 related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/topbet]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]']
+# Stage 2 flags
+pariuri_secondary: true
+
 ---
 
 # TopBet — Dosar brand
@@ -126,3 +129,11 @@ topbet (16K, KD26)
 ## Note interne
 
 Înlocuiește Mozzartbet în lineup.
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

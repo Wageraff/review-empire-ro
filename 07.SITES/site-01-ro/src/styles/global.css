@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a2b4a;
+  --color-accent: #d97706;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-success: #15803d;
+  --color-danger: #b91c1c;
+  --color-trust: #0f766e;
+  --font-heading: "Source Serif 4", Georgia, serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.bt-prose {
+  max-width: 70ch;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.bt-prose h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.bt-prose h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.bt-prose p {
+  margin-bottom: 1rem;
+}
+
+.bt-prose ul,
+.bt-prose ol {
+  margin: 0.75rem 0 1rem 1.25rem;
+}
+
+.bt-prose li {
+  margin-bottom: 0.35rem;
+}
+
+.bt-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin: 1.25rem 0;
+}
+
+.bt-prose th,
+.bt-prose td {
+  border: 1px solid var(--color-border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.bt-prose th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.bt-prose tr:nth-child(even) td {
+  background: #f8fafc;
+}
+
+.bt-prose a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.bt-prose details {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background: var(--color-surface);
+}
+
+.bt-prose summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.bt-figure figcaption {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+.bt-prose img {
+  border-radius: 0.5rem;
+  margin: 1.25rem 0;
+}

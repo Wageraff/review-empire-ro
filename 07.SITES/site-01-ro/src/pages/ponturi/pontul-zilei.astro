@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrustBar from '../../components/TrustBar.astro';
+import ComingSoon from '../../components/ComingSoon.astro';
+---
+
+<BaseLayout
+  title="Pontul zilei — în curând"
+  description="Ponturi și predicții zilnice pe pariuri sportive. Secțiune în pregătire pe Betoteca."
+  canonical="/ponturi/pontul-zilei/"
+>
+  <section class="border-b border-border bg-primary text-white">
+    <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+      <h1 class="font-heading text-3xl font-bold sm:text-4xl">Pontul zilei</h1>
+      <p class="mt-3 max-w-2xl text-slate-200">
+        Selecții zilnice cross-sport — disponibile după conectarea sursei de date (Faza 3).
+      </p>
+    </div>
+  </section>
+  <TrustBar showLicense={true} />
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <ComingSoon message="Digest-ul „Pontul zilei” va agrega 1–2 selecții pe zi din tot lineup-ul de sporturi. Până atunci poți citi recenziile și ghidurile deja publicate." />
+    <p class="text-sm text-muted">
+      Vezi și hub-ul pe sport:
+      <a href="/ponturi/fotbal/" class="font-semibold text-primary">Ponturi fotbal</a>
+      ·
+      <a href="/recenzii/betano/" class="font-semibold text-primary">Recenzie Betano</a>
+    </p>
+  </div>
+</BaseLayout>

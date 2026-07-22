@@ -1,0 +1,398 @@
+{
+  "clusters": [
+    {
+      "cluster": "CORE: Recenzii branduri",
+      "total_volume": 5625960,
+      "keywords": 3068,
+      "avg_kd": 0.0,
+      "competitors": "6/8",
+      "urls": 269,
+      "potential": "high",
+      "tier": "CORE"
+    },
+    {
+      "cluster": "DEFERRED: Cazino",
+      "total_volume": 2110920,
+      "keywords": 1260,
+      "avg_kd": 0.0,
+      "competitors": "5/8",
+      "urls": 61,
+      "potential": "deferred",
+      "tier": "DEFERRED"
+    },
+    {
+      "cluster": "SECONDARY: Sport — fotbal",
+      "total_volume": 323670,
+      "keywords": 327,
+      "avg_kd": 0.0,
+      "competitors": "3/8",
+      "urls": 5,
+      "potential": "medium",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "CORE: Bonusuri (general)",
+      "total_volume": 245830,
+      "keywords": 657,
+      "avg_kd": 0.0,
+      "competitors": "4/8",
+      "urls": 1928,
+      "potential": "medium",
+      "tier": "CORE"
+    },
+    {
+      "cluster": "CORE: Bonus fără depunere",
+      "total_volume": 242930,
+      "keywords": 385,
+      "avg_kd": 0.0,
+      "competitors": "7/8",
+      "urls": 216,
+      "potential": "high",
+      "tier": "CORE"
+    },
+    {
+      "cluster": "OTHER: Brand navigational",
+      "total_volume": 159550,
+      "keywords": 90,
+      "avg_kd": 0.0,
+      "competitors": "0/8",
+      "urls": 0,
+      "potential": "high",
+      "tier": "OTHER"
+    },
+    {
+      "cluster": "OTHER: Pariuri generale",
+      "total_volume": 144980,
+      "keywords": 586,
+      "avg_kd": 0.0,
+      "competitors": "0/8",
+      "urls": 0,
+      "potential": "high",
+      "tier": "OTHER"
+    },
+    {
+      "cluster": "SECONDARY: Ponturi & predicții",
+      "total_volume": 66840,
+      "keywords": 209,
+      "avg_kd": 0.0,
+      "competitors": "6/8",
+      "urls": 137,
+      "potential": "high",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "SECONDARY: Metode plată",
+      "total_volume": 62120,
+      "keywords": 117,
+      "avg_kd": 0.0,
+      "competitors": "4/8",
+      "urls": 28,
+      "potential": "medium",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "SECONDARY: Sport — tenis/baschet/alte",
+      "total_volume": 59300,
+      "keywords": 173,
+      "avg_kd": 0.0,
+      "competitors": "6/8",
+      "urls": 44,
+      "potential": "medium",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "NICHE: Verificare bilet",
+      "total_volume": 47030,
+      "keywords": 93,
+      "avg_kd": 0.0,
+      "competitors": "1/8",
+      "urls": 6,
+      "potential": "medium",
+      "tier": "NICHE"
+    },
+    {
+      "cluster": "SECONDARY: Ghiduri & concepte pariuri",
+      "total_volume": 20480,
+      "keywords": 148,
+      "avg_kd": 0.0,
+      "competitors": "7/8",
+      "urls": 890,
+      "potential": "high",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "CORE: Top / listă case pariuri",
+      "total_volume": 5040,
+      "keywords": 48,
+      "avg_kd": 0.0,
+      "competitors": "8/8",
+      "urls": 172,
+      "potential": "high",
+      "tier": "CORE"
+    },
+    {
+      "cluster": "NICHE: Licență ONJN / legal",
+      "total_volume": 4010,
+      "keywords": 10,
+      "avg_kd": 0.0,
+      "competitors": "1/8",
+      "urls": 1,
+      "potential": "medium",
+      "tier": "NICHE"
+    },
+    {
+      "cluster": "NICHE: Coduri bonus / promo",
+      "total_volume": 2110,
+      "keywords": 15,
+      "avg_kd": 0.0,
+      "competitors": "2/8",
+      "urls": 102,
+      "potential": "medium",
+      "tier": "NICHE"
+    },
+    {
+      "cluster": "CORE: Aplicații mobil",
+      "total_volume": 1540,
+      "keywords": 21,
+      "avg_kd": 0.0,
+      "competitors": "6/8",
+      "urls": 122,
+      "potential": "high",
+      "tier": "CORE"
+    },
+    {
+      "cluster": "SECONDARY: Pariuri live",
+      "total_volume": 1420,
+      "keywords": 15,
+      "avg_kd": 0.0,
+      "competitors": "7/8",
+      "urls": 890,
+      "potential": "high",
+      "tier": "SECONDARY"
+    },
+    {
+      "cluster": "NICHE: Agenții stradale",
+      "total_volume": 250,
+      "keywords": 1,
+      "avg_kd": 0.0,
+      "competitors": "3/8",
+      "urls": 33,
+      "potential": "low",
+      "tier": "NICHE"
+    },
+    {
+      "cluster": "NICHE: Bonus bun venit",
+      "total_volume": 150,
+      "keywords": 1,
+      "avg_kd": 0.0,
+      "competitors": "3/8",
+      "urls": 1826,
+      "potential": "low",
+      "tier": "NICHE"
+    },
+    {
+      "cluster": "NICHE: Ratings feature (plată/geo/live)",
+      "total_volume": 100,
+      "keywords": 1,
+      "avg_kd": 0.0,
+      "competitors": "3/8",
+      "urls": 34,
+      "potential": "low",
+      "tier": "NICHE"
+    }
+  ],
+  "url_taxonomy": {
+    "bonusuri-brand": {
+      "count": 1826,
+      "domains": {
+        "beturi": 86,
+        "biletu-zilei": 36,
+        "pariurix": 1704
+      }
+    },
+    "ghiduri-pariuri": {
+      "count": 890,
+      "domains": {
+        "10pariuri": 151,
+        "beturi": 165,
+        "biletu-zilei": 63,
+        "legalbet": 122,
+        "pariuriexpert": 52,
+        "pariurix": 301,
+        "xbets": 36
+      }
+    },
+    "uncategorized": {
+      "count": 677,
+      "domains": {
+        "10pariuri": 161,
+        "beturi": 20,
+        "biletu-zilei": 81,
+        "legalbet": 280,
+        "pariuriexpert": 4,
+        "pariurix": 10,
+        "pontul-zilei": 38,
+        "xbets": 83
+      }
+    },
+    "recenzii-branduri": {
+      "count": 269,
+      "domains": {
+        "10pariuri": 52,
+        "beturi": 26,
+        "biletu-zilei": 67,
+        "legalbet": 3,
+        "pariuriexpert": 32,
+        "pariurix": 89
+      }
+    },
+    "bonus-fara-depunere": {
+      "count": 216,
+      "domains": {
+        "10pariuri": 98,
+        "beturi": 7,
+        "biletu-zilei": 3,
+        "legalbet": 9,
+        "pariuriexpert": 1,
+        "pariurix": 79,
+        "xbets": 19
+      }
+    },
+    "ratings-top": {
+      "count": 172,
+      "domains": {
+        "10pariuri": 24,
+        "beturi": 1,
+        "biletu-zilei": 18,
+        "legalbet": 86,
+        "pariuriexpert": 5,
+        "pariurix": 31,
+        "pontul-zilei": 2,
+        "xbets": 5
+      }
+    },
+    "ponturi-predictii": {
+      "count": 137,
+      "domains": {
+        "10pariuri": 41,
+        "beturi": 13,
+        "biletu-zilei": 15,
+        "legalbet": 18,
+        "pariurix": 41,
+        "xbets": 9
+      }
+    },
+    "aplicatii-mobil": {
+      "count": 122,
+      "domains": {
+        "10pariuri": 36,
+        "beturi": 10,
+        "biletu-zilei": 47,
+        "legalbet": 25,
+        "pariuriexpert": 2,
+        "pariurix": 2
+      }
+    },
+    "coduri-bonus": {
+      "count": 102,
+      "domains": {
+        "10pariuri": 43,
+        "biletu-zilei": 59
+      }
+    },
+    "cazino": {
+      "count": 61,
+      "domains": {
+        "10pariuri": 10,
+        "biletu-zilei": 21,
+        "legalbet": 28,
+        "pariurix": 1,
+        "pontul-zilei": 1
+      }
+    },
+    "sport-alte": {
+      "count": 40,
+      "domains": {
+        "10pariuri": 7,
+        "beturi": 1,
+        "biletu-zilei": 7,
+        "legalbet": 13,
+        "pariurix": 9,
+        "xbets": 3
+      }
+    },
+    "ratings-feature": {
+      "count": 34,
+      "domains": {
+        "10pariuri": 16,
+        "biletu-zilei": 17,
+        "legalbet": 1
+      }
+    },
+    "agentii-stradale": {
+      "count": 33,
+      "domains": {
+        "10pariuri": 1,
+        "biletu-zilei": 13,
+        "pariurix": 19
+      }
+    },
+    "metode-plata": {
+      "count": 28,
+      "domains": {
+        "10pariuri": 17,
+        "beturi": 2,
+        "biletu-zilei": 4,
+        "pariurix": 5
+      }
+    },
+    "verificare-bilet": {
+      "count": 6,
+      "domains": {
+        "10pariuri": 6
+      }
+    },
+    "sport-fotbal": {
+      "count": 5,
+      "domains": {
+        "10pariuri": 1,
+        "pariurix": 1,
+        "xbets": 3
+      }
+    },
+    "sport-baschet": {
+      "count": 2,
+      "domains": {
+        "legalbet": 2
+      }
+    },
+    "sport-tenis": {
+      "count": 2,
+      "domains": {
+        "pariurix": 2
+      }
+    },
+    "licenta-legal": {
+      "count": 1,
+      "domains": {
+        "10pariuri": 1
+      }
+    },
+    "player-pareri": {
+      "count": 0,
+      "domains": {}
+    },
+    "bonusuri-hub": {
+      "count": 0,
+      "domains": {}
+    },
+    "cash-out": {
+      "count": 0,
+      "domains": {}
+    },
+    "handicap": {
+      "count": 0,
+      "domains": {}
+    }
+  }
+}

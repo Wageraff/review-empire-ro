@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+import '@fontsource/source-serif-4/400.css';
+import '@fontsource/source-serif-4/700.css';
+import '@fontsource/source-sans-3/400.css';
+import '@fontsource/source-sans-3/600.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  schemaJson?: object | object[];
+}
+
+const {
+  title,
+  description = SITE.tagline,
+  canonical,
+  schemaJson,
+} = Astro.props;
+
+const pageTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+const canonicalUrl = canonical
+  ? new URL(canonical, Astro.site).toString()
+  : new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="ro-RO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="ro-RO" href={canonicalUrl} />
+    <meta name="generator" content={Astro.generator} />
+    {schemaJson && (
+      <script type="application/ld+json" set:html={JSON.stringify(schemaJson)} />
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <SiteHeader />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

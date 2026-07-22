@@ -1,0 +1,31 @@
+---
+interface Props {
+  updated?: string;
+  showLicense?: boolean;
+}
+
+const { updated, showLicense = true } = Astro.props;
+---
+
+<div class="border-y border-border bg-surface">
+  <div
+    class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 text-sm text-muted sm:px-6"
+  >
+    {
+      showLicense && (
+        <span class="font-semibold text-trust">Licență ONJN Clasa I</span>
+      )
+    }
+    <span class="font-bold text-danger">18+</span>
+    <a href="/joc-responsabil/" class="text-muted no-underline hover:text-accent">
+      Joc responsabil
+    </a>
+    {
+      updated && (
+        <span>
+          Actualizat: <time datetime={updated}>{updated}</time>
+        </span>
+      )
+    }
+  </div>
+</div>

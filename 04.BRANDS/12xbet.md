@@ -4,7 +4,7 @@ slug: 12xbet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://12xbet.ro
 launched_ro: 2016
@@ -34,6 +34,10 @@ related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
 
 sources: ['01.RAW/web-clips/reviews/12xbet 🏆 400 lei bonus pariuri - Opinii și Recenzie 2026.md', '01.RAW/ahrefs/keywords/google_ro_12xbet_matching-terms_2026-07-10_09-11-15.csv']
 related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/12xbet]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]', '[[brands/winmasters]]']
+# Stage 2 flags
+guide_synthesis_needed: true
+pariuri_secondary: true
+
 ---
 
 # 12xBet — Dosar brand
@@ -126,3 +130,11 @@ Rating UX: 8/10. Experiență mobilă: 5/10.
 ## Note interne
 
 Brand suplimentar în lineup (nu înlocuiește Vbet). Reverificare ONJN 2026.
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

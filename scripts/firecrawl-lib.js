@@ -10,12 +10,30 @@ const WEB_CLIPS_ROOT = path.join(VAULT_ROOT, '01.RAW', 'web-clips');
 const LOGS_ROOT = path.join(VAULT_ROOT, 'logs');
 const MIN_MARKDOWN_LENGTH = 300;
 
+/** Per-domain tuning discovered from batch error analysis (2026-07-13). */
+const DOMAIN_PROFILES = {
+  'pariurix.com': { waitForMs: 4000 },
+  '10pariuri.ro': { waitForMs: 4000 },
+  'legalbet.ro': { waitForMs: 4000 },
+  'biletu-zilei.com': { waitForMs: 3500 },
+};
+
+const DEFAULT_EXCLUDE_TAGS = [
+  'nav', 'footer', 'header', 'aside',
+  '.ads', '.sidebar', '.comments', '.related-posts',
+  '.cookie-banner', '.popup', '.newsletter',
+];
+
 const TYPE_MAP = {
   reviews: { folder: 'reviews', source_type: 'reviews' },
   bonuses: { folder: 'bonuses', source_type: 'bonuses' },
   guides: { folder: 'guides', source_type: 'guides' },
   ratings: { folder: 'ratings', source_type: 'ratings' },
   'sport-categories': { folder: 'sport-categories', source_type: 'sport' },
+  apps: { folder: 'apps', source_type: 'apps' },
+  payments: { folder: 'payments', source_type: 'payments' },
+  retail: { folder: 'retail', source_type: 'retail' },
+  'player-reviews': { folder: 'player-reviews', source_type: 'player-reviews' },
 };
 
 const RO_DIACRITICS = {
@@ -33,7 +51,7 @@ function loadEnv() {
 
   return {
     apiKey,
-    waitForMs: Number(process.env.FIRECRAWL_WAIT_FOR_MS || 2000),
+    waitForMs: Number(process.env.FIRECRAWL_WAIT_FOR_MS || 3000),
     concurrency: Number(process.env.FIRECRAWL_CONCURRENCY || 5),
     retryAttempts: Number(process.env.FIRECRAWL_RETRY_ATTEMPTS || 3),
     rateLimitMs: Number(process.env.FIRECRAWL_RATE_LIMIT_MS || 200),
@@ -107,14 +125,41 @@ function targetPaths(typeArg, url) {
   return { baseDir, imgsDir, markdownPath, screenshotPath, slug, domain, date };
 }
 
-function buildScrapeOptions(waitForMs) {
+function getDomainProfile(url) {
+  return DOMAIN_PROFILES[domainFromUrl(url)] || {};
+}
+
+/**
+ * Primary scrape profile.
+ * NOTE: do NOT use includeTags — pariurix.com and others return 0 chars when
+ * content is outside article/main/.content wrappers.
+ */
+function buildScrapeOptions(url, env, { fallback = false } = {}) {
+  const profile = getDomainProfile(url);
+  const baseWait = profile.waitForMs || env.waitForMs;
+
+  if (fallback) {
+    return {
+      formats: ['markdown', { type: 'screenshot', fullPage: true }],
+      onlyMainContent: false,
+      excludeTags: ['nav', 'footer', 'header'],
+      waitFor: baseWait + 3000,
+    };
+  }
+
   return {
     formats: ['markdown', { type: 'screenshot', fullPage: true }],
     onlyMainContent: true,
-    excludeTags: ['nav', 'footer', '.ads', '.sidebar', '.comments', '.related-posts', 'aside'],
-    includeTags: ['article', 'main', '.content', '.post-content', '.entry-content'],
-    waitFor: waitForMs,
+    excludeTags: DEFAULT_EXCLUDE_TAGS,
+    waitFor: baseWait,
   };
+}
+
+function buildScrapeStrategies(url, env) {
+  return [
+    { name: 'primary', opts: buildScrapeOptions(url, env) },
+    { name: 'fallback-full', opts: buildScrapeOptions(url, env, { fallback: true }) },
+  ];
 }
 
 function createClient(apiKey) {
@@ -173,7 +218,7 @@ async function saveScreenshot(screenshot, destPath) {
   return false;
 }
 
-function buildFrontmatter({ url, typeArg, metadata, creditsUsed }) {
+function buildFrontmatter({ url, typeArg, metadata, creditsUsed, scrapeStrategy }) {
   const { source_type } = resolveType(typeArg);
   const domain = domainFromUrl(url);
   const fm = {
@@ -187,6 +232,7 @@ function buildFrontmatter({ url, typeArg, metadata, creditsUsed }) {
     source_type,
     firecrawl_credits_used: creditsUsed ?? 1,
   };
+  if (scrapeStrategy) fm.scrape_strategy = scrapeStrategy;
   if (!fm.published) delete fm.published;
   return YAML.stringify(fm).trim();
 }
@@ -204,26 +250,47 @@ function findExistingClip(baseDir, url) {
 }
 
 async function scrapeWithRetry(firecrawl, url, env, logFn) {
+  const strategies = buildScrapeStrategies(url, env);
   let lastError;
-  for (let attempt = 1; attempt <= env.retryAttempts; attempt++) {
-    try {
-      const doc = await firecrawl.scrapeUrl(url, buildScrapeOptions(env.waitForMs));
-      const status = doc?.metadata?.statusCode;
-      if (status && status >= 400) {
-        const err = new Error(formatHttpError(status, doc?.metadata?.error));
-        err.status = status;
-        throw err;
+
+  for (const strategy of strategies) {
+    for (let attempt = 1; attempt <= env.retryAttempts; attempt++) {
+      try {
+        const doc = await firecrawl.scrapeUrl(url, strategy.opts);
+        const status = doc?.metadata?.statusCode;
+        if (status && status >= 400) {
+          const err = new Error(formatHttpError(status, doc?.metadata?.error));
+          err.status = status;
+          throw err;
+        }
+
+        const markdown = (doc.markdown || '').trim();
+        if (markdown.length < MIN_MARKDOWN_LENGTH) {
+          lastError = new Error(
+            `Markdown слишком короткий (${markdown.length} символов, минимум ${MIN_MARKDOWN_LENGTH}) [${strategy.name}]`
+          );
+          lastError.status = 422;
+          if (logFn) {
+            logFn(`short markdown (${markdown.length}) on ${strategy.name} for ${url}`);
+          }
+          break;
+        }
+
+        doc._scrapeStrategy = strategy.name;
+        return doc;
+      } catch (err) {
+        lastError = err;
+        const retryable = isRetryableError(err);
+        if (!retryable || attempt === env.retryAttempts) break;
+        const wait = env.rateLimitMs * attempt;
+        if (logFn) {
+          logFn(`retry ${attempt}/${env.retryAttempts} [${strategy.name}] for ${url} in ${wait}ms: ${err.message}`);
+        }
+        await sleep(wait);
       }
-      return doc;
-    } catch (err) {
-      lastError = err;
-      const retryable = isRetryableError(err);
-      if (!retryable || attempt === env.retryAttempts) break;
-      const wait = env.rateLimitMs * attempt;
-      if (logFn) logFn(`retry ${attempt}/${env.retryAttempts} for ${url} in ${wait}ms: ${err.message}`);
-      await sleep(wait);
     }
   }
+
   throw lastError;
 }
 
@@ -257,6 +324,7 @@ async function processUrl(firecrawl, url, typeArg, env, { skipExisting = false }
     typeArg,
     metadata: doc.metadata,
     creditsUsed,
+    scrapeStrategy: doc._scrapeStrategy,
   });
 
   const body = `---\n${frontmatter}\n---\n\n${markdown}\n`;
@@ -313,6 +381,8 @@ module.exports = {
   domainFromUrl,
   targetPaths,
   buildScrapeOptions,
+  buildScrapeStrategies,
+  getDomainProfile,
   createClient,
   formatHttpError,
   isRetryableError,

@@ -4,7 +4,7 @@ slug: winbet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://winbet.ro
 launched_ro: 2018
@@ -122,3 +122,11 @@ winbet (204K, KD68)
 - ``01.RAW/assets/winbet/1689428662winbet-preview.webp``
 - ``01.RAW/assets/winbet/20-RON-Pariu-Gratuit-Fara-Depunere-la-Winbet-pentru-Validarea-Contului.webp``
 - ``01.RAW/assets/winbet/calendarwinbet.jpg``
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

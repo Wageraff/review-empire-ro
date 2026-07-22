@@ -4,7 +4,7 @@ slug: getsbet
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://getsbet.ro
 launched_ro: 2017
@@ -122,3 +122,11 @@ gets bet (75K, KD48)
 - ``01.RAW/assets/getsbet/Getsbet-bonus-de-bun-venit-pariuri.jpg``
 - ``01.RAW/assets/getsbet/65b379a7687bf_1706260903-102x64 14.png``
 - ``01.RAW/assets/getsbet/no-photo_little 15.png``
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

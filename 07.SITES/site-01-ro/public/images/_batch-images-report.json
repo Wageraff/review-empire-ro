@@ -1,0 +1,642 @@
+{
+  "at": "2026-07-22T05:39:43.908Z",
+  "site": "site-01-ro",
+  "variant": 1,
+  "brands": 20,
+  "ok": 77,
+  "missing": 3,
+  "errors": 0,
+  "results": [
+    {
+      "brand": "12xbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/12xbet/oferta-pariuri-12xbet.png",
+      "out": "07.SITES/site-01-ro/public/images/12xbet/12xbet-screenshot-main.webp",
+      "sizeKb": 51
+    },
+    {
+      "brand": "12xbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/12xbet/promotii-12xbet-pariuri.png",
+      "out": "07.SITES/site-01-ro/public/images/12xbet/12xbet-screenshot-bonus.webp",
+      "sizeKb": 55
+    },
+    {
+      "brand": "12xbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/12xbet/oferta-pariuri-12xbet.png",
+      "out": "07.SITES/site-01-ro/public/images/12xbet/12xbet-screenshot-app.webp",
+      "sizeKb": 51
+    },
+    {
+      "brand": "12xbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/12xbet/Logo-12xBet-250x120-2.png",
+      "out": "07.SITES/site-01-ro/public/images/12xbet/12xbet-logo.png",
+      "sizeKb": 7
+    },
+    {
+      "brand": "888sport",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/888sport/888sportregister.jpg",
+      "out": "07.SITES/site-01-ro/public/images/888sport/888sport-screenshot-main.webp",
+      "sizeKb": 27
+    },
+    {
+      "brand": "888sport",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/web-clips/bonuses/imgs/888-sport-match-combos-pariuri-cu-2-sau-3-selectii-pe-acelasi-meci-screenshot.png",
+      "out": "07.SITES/site-01-ro/public/images/888sport/888sport-screenshot-bonus.webp",
+      "sizeKb": 50
+    },
+    {
+      "brand": "888sport",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/888sport/888sportregister.jpg",
+      "out": "07.SITES/site-01-ro/public/images/888sport/888sport-screenshot-app.webp",
+      "sizeKb": 27
+    },
+    {
+      "brand": "888sport",
+      "role": "logo",
+      "status": "missing"
+    },
+    {
+      "brand": "betano",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/betano/Betano-Meciuri-Live.webp",
+      "out": "07.SITES/site-01-ro/public/images/betano/betano-screenshot-main.webp",
+      "sizeKb": 62
+    },
+    {
+      "brand": "betano",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/betano/Depmania-la-Reducere-pentru-Finala-Cupei-Romaniei-la-Betano-Doar-astazi-Bonus-10-la-Depunere.webp",
+      "out": "07.SITES/site-01-ro/public/images/betano/betano-screenshot-bonus.webp",
+      "sizeKb": 61
+    },
+    {
+      "brand": "betano",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/betano/Betano-Casino-Prezentare-oferta-de-jocuri.jpg",
+      "out": "07.SITES/site-01-ro/public/images/betano/betano-screenshot-app.webp",
+      "sizeKb": 106
+    },
+    {
+      "brand": "betano",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/betano/Betano-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/betano/betano-logo.png",
+      "sizeKb": 24
+    },
+    {
+      "brand": "betfair",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/betfair/Betfair-Live-Betting-si-Streaming.webp",
+      "out": "07.SITES/site-01-ro/public/images/betfair/betfair-screenshot-main.webp",
+      "sizeKb": 142
+    },
+    {
+      "brand": "betfair",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/betfair/Bonus-de-bun-venit-pana-la-550-lei-la-Pariuri-Betfair.webp",
+      "out": "07.SITES/site-01-ro/public/images/betfair/betfair-screenshot-bonus.webp",
+      "sizeKb": 113
+    },
+    {
+      "brand": "betfair",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/betfair/Aplicatie-mobila-Betfair-si-functionalitati.webp",
+      "out": "07.SITES/site-01-ro/public/images/betfair/betfair-screenshot-app.webp",
+      "sizeKb": 104
+    },
+    {
+      "brand": "betfair",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/betfair/Betfair-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/betfair/betfair-logo.png",
+      "sizeKb": 38
+    },
+    {
+      "brand": "casa-pariurilor",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/casa-pariurilor/Cum-deschid-un-cont-de-pariuri-la-Casa-Pariurilor.webp",
+      "out": "07.SITES/site-01-ro/public/images/casa-pariurilor/casa-pariurilor-screenshot-main.webp",
+      "sizeKb": 58
+    },
+    {
+      "brand": "casa-pariurilor",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/casa-pariurilor/Castiga-10-LEI-Freebet-sau-25-de-Rotiri-Gratuite-Fara-Depunere-la-Casa-Pariurilor.webp",
+      "out": "07.SITES/site-01-ro/public/images/casa-pariurilor/casa-pariurilor-screenshot-bonus.webp",
+      "sizeKb": 30
+    },
+    {
+      "brand": "casa-pariurilor",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/casa-pariurilor/Casa-Pariurilor-App.webp",
+      "out": "07.SITES/site-01-ro/public/images/casa-pariurilor/casa-pariurilor-screenshot-app.webp",
+      "sizeKb": 100
+    },
+    {
+      "brand": "casa-pariurilor",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/casa-pariurilor/Casa-Pariurilor-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/casa-pariurilor/casa-pariurilor-logo.png",
+      "sizeKb": 32
+    },
+    {
+      "brand": "don-ro",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/don-ro/Don-Pariuri-Sportive.webp",
+      "out": "07.SITES/site-01-ro/public/images/don-ro/don-ro-screenshot-main.webp",
+      "sizeKb": 89
+    },
+    {
+      "brand": "don-ro",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/don-ro/Don-Bonus-de-Bun-Venit.webp",
+      "out": "07.SITES/site-01-ro/public/images/don-ro/don-ro-screenshot-bonus.webp",
+      "sizeKb": 60
+    },
+    {
+      "brand": "don-ro",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/don-ro/Don-Pariuri-Sportive.webp",
+      "out": "07.SITES/site-01-ro/public/images/don-ro/don-ro-screenshot-app.webp",
+      "sizeKb": 89
+    },
+    {
+      "brand": "don-ro",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/don-ro/Don-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/don-ro/don-ro-logo.png",
+      "sizeKb": 28
+    },
+    {
+      "brand": "favbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/favbet/Verificare-cont-Favbet.webp",
+      "out": "07.SITES/site-01-ro/public/images/favbet/favbet-screenshot-main.webp",
+      "sizeKb": 31
+    },
+    {
+      "brand": "favbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/favbet/bonusuri-favbet.png",
+      "out": "07.SITES/site-01-ro/public/images/favbet/favbet-screenshot-bonus.webp",
+      "sizeKb": 91
+    },
+    {
+      "brand": "favbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/favbet/Verificare-cont-Favbet.webp",
+      "out": "07.SITES/site-01-ro/public/images/favbet/favbet-screenshot-app.webp",
+      "sizeKb": 31
+    },
+    {
+      "brand": "favbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/favbet/Favbet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/favbet/favbet-logo.png",
+      "sizeKb": 25
+    },
+    {
+      "brand": "fortuna",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/fortuna/Pariuri-Live-Fortuna.webp",
+      "out": "07.SITES/site-01-ro/public/images/fortuna/fortuna-screenshot-main.webp",
+      "sizeKb": 48
+    },
+    {
+      "brand": "fortuna",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/fortuna/50-Rotiri-Gratuite-la-Fortuna-inainte-de-meciul-Cipru-Romania-din-preliminariile-CM-2026.webp",
+      "out": "07.SITES/site-01-ro/public/images/fortuna/fortuna-screenshot-bonus.webp",
+      "sizeKb": 48
+    },
+    {
+      "brand": "fortuna",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/fortuna/Aplicatie-Fortuna.webp",
+      "out": "07.SITES/site-01-ro/public/images/fortuna/fortuna-screenshot-app.webp",
+      "sizeKb": 46
+    },
+    {
+      "brand": "fortuna",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/fortuna/Fortuna-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/fortuna/fortuna-logo.png",
+      "sizeKb": 31
+    },
+    {
+      "brand": "getsbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/getsbet/Cazinoul-LIVE-Getsbet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/getsbet/getsbet-screenshot-main.webp",
+      "sizeKb": 97
+    },
+    {
+      "brand": "getsbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/getsbet/gets_bet_bonus_la_depunere_sport_0225.jpg",
+      "out": "07.SITES/site-01-ro/public/images/getsbet/getsbet-screenshot-bonus.webp",
+      "sizeKb": 83
+    },
+    {
+      "brand": "getsbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/getsbet/Pariuri-sportive-la-Getsbet-Oferta-si-prezentare.jpg",
+      "out": "07.SITES/site-01-ro/public/images/getsbet/getsbet-screenshot-app.webp",
+      "sizeKb": 53
+    },
+    {
+      "brand": "getsbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/getsbet/logo-gets-bet-alb.webp",
+      "out": "07.SITES/site-01-ro/public/images/getsbet/getsbet-logo.png",
+      "sizeKb": 21
+    },
+    {
+      "brand": "maxbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/maxbet/Maxbet-oferta-sportiva.webp",
+      "out": "07.SITES/site-01-ro/public/images/maxbet/maxbet-screenshot-main.webp",
+      "sizeKb": 58
+    },
+    {
+      "brand": "maxbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/maxbet/Maxbet-bonus-sport-pana-la-750-RON.jpg",
+      "out": "07.SITES/site-01-ro/public/images/maxbet/maxbet-screenshot-bonus.webp",
+      "sizeKb": 51
+    },
+    {
+      "brand": "maxbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/maxbet/Maxbet-oferta-sportiva.webp",
+      "out": "07.SITES/site-01-ro/public/images/maxbet/maxbet-screenshot-app.webp",
+      "sizeKb": 58
+    },
+    {
+      "brand": "maxbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/maxbet/Maxbet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/maxbet/maxbet-logo.png",
+      "sizeKb": 26
+    },
+    {
+      "brand": "netbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/netbet/Netbet-oferta-sportiva.webp",
+      "out": "07.SITES/site-01-ro/public/images/netbet/netbet-screenshot-main.webp",
+      "sizeKb": 81
+    },
+    {
+      "brand": "netbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/netbet/bonus-fara-depunere-netbet-casino-333-rotiri-gratuite.jpg",
+      "out": "07.SITES/site-01-ro/public/images/netbet/netbet-screenshot-bonus.webp",
+      "sizeKb": 76
+    },
+    {
+      "brand": "netbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/netbet/Netbet-oferta-sportiva.webp",
+      "out": "07.SITES/site-01-ro/public/images/netbet/netbet-screenshot-app.webp",
+      "sizeKb": 81
+    },
+    {
+      "brand": "netbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/netbet/Netbet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/netbet/netbet-logo.png",
+      "sizeKb": 22
+    },
+    {
+      "brand": "pokerstars",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/pokerstars/verificare-bilet 1.jpg",
+      "out": "07.SITES/site-01-ro/public/images/pokerstars/pokerstars-screenshot-main.webp",
+      "sizeKb": 19
+    },
+    {
+      "brand": "pokerstars",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/web-clips/bonuses/imgs/bonus-bun-venit-pokerstars-screenshot.png",
+      "out": "07.SITES/site-01-ro/public/images/pokerstars/pokerstars-screenshot-bonus.webp",
+      "sizeKb": 30
+    },
+    {
+      "brand": "pokerstars",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/pokerstars/verificare-bilet 1.jpg",
+      "out": "07.SITES/site-01-ro/public/images/pokerstars/pokerstars-screenshot-app.webp",
+      "sizeKb": 19
+    },
+    {
+      "brand": "pokerstars",
+      "role": "logo",
+      "status": "missing"
+    },
+    {
+      "brand": "stanleybet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/stanleybet/Oferta-de-jocuri-cazino-Stanleybet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/stanleybet/stanleybet-screenshot-main.webp",
+      "sizeKb": 88
+    },
+    {
+      "brand": "stanleybet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/stanleybet/Stanleybet-bonus-bun-venit-pariuri-1500-lei.jpg",
+      "out": "07.SITES/site-01-ro/public/images/stanleybet/stanleybet-screenshot-bonus.webp",
+      "sizeKb": 41
+    },
+    {
+      "brand": "stanleybet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/stanleybet/Oferta-de-jocuri-cazino-Stanleybet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/stanleybet/stanleybet-screenshot-app.webp",
+      "sizeKb": 88
+    },
+    {
+      "brand": "stanleybet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/stanleybet/logo-stanleybet.webp",
+      "out": "07.SITES/site-01-ro/public/images/stanleybet/stanleybet-logo.png",
+      "sizeKb": 10
+    },
+    {
+      "brand": "superbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/superbet/Cum-accesezi-cazinoul-online-Superbet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/superbet/superbet-screenshot-main.webp",
+      "sizeKb": 75
+    },
+    {
+      "brand": "superbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/superbet/bonus-de-bun-venit-superbet-casino-500-lei-rulaj-x1.png",
+      "out": "07.SITES/site-01-ro/public/images/superbet/superbet-screenshot-bonus.webp",
+      "sizeKb": 44
+    },
+    {
+      "brand": "superbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/superbet/Cum-accesezi-cazinoul-online-Superbet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/superbet/superbet-screenshot-app.webp",
+      "sizeKb": 75
+    },
+    {
+      "brand": "superbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/superbet/logo-superbet-alb.webp",
+      "out": "07.SITES/site-01-ro/public/images/superbet/superbet-logo.png",
+      "sizeKb": 5
+    },
+    {
+      "brand": "topbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/topbet/topbet-casino-live.png",
+      "out": "07.SITES/site-01-ro/public/images/topbet/topbet-screenshot-main.webp",
+      "sizeKb": 117
+    },
+    {
+      "brand": "topbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/topbet/Topbet-bonus-sport-1200-lei.jpg",
+      "out": "07.SITES/site-01-ro/public/images/topbet/topbet-screenshot-bonus.webp",
+      "sizeKb": 62
+    },
+    {
+      "brand": "topbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/topbet/sloturi-top-bet-casino.png",
+      "out": "07.SITES/site-01-ro/public/images/topbet/topbet-screenshot-app.webp",
+      "sizeKb": 116
+    },
+    {
+      "brand": "topbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/topbet/Logo-TopBet-250x120-1.png",
+      "out": "07.SITES/site-01-ro/public/images/topbet/topbet-logo.png",
+      "sizeKb": 4
+    },
+    {
+      "brand": "totogaming",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/totogaming/Totogaming-Casino-LIVE.jpg",
+      "out": "07.SITES/site-01-ro/public/images/totogaming/totogaming-screenshot-main.webp",
+      "sizeKb": 101
+    },
+    {
+      "brand": "totogaming",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/totogaming/Totogaming-bonus-fara-depunere-200-rotiri-si-100-lei-freebet.jpg",
+      "out": "07.SITES/site-01-ro/public/images/totogaming/totogaming-screenshot-bonus.webp",
+      "sizeKb": 69
+    },
+    {
+      "brand": "totogaming",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/totogaming/Oferta-de-jocuri-Totogaming-Casino.jpg",
+      "out": "07.SITES/site-01-ro/public/images/totogaming/totogaming-screenshot-app.webp",
+      "sizeKb": 138
+    },
+    {
+      "brand": "totogaming",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/totogaming/logo-totogaming.webp",
+      "out": "07.SITES/site-01-ro/public/images/totogaming/totogaming-logo.png",
+      "sizeKb": 9
+    },
+    {
+      "brand": "unibet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/unibet/unibet-casino.webp",
+      "out": "07.SITES/site-01-ro/public/images/unibet/unibet-screenshot-main.webp",
+      "sizeKb": 113
+    },
+    {
+      "brand": "unibet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/unibet/Unibet-bonus-pariuri-750-RON-fara-risc.jpg",
+      "out": "07.SITES/site-01-ro/public/images/unibet/unibet-screenshot-bonus.webp",
+      "sizeKb": 76
+    },
+    {
+      "brand": "unibet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/unibet/unibet-casino.webp",
+      "out": "07.SITES/site-01-ro/public/images/unibet/unibet-screenshot-app.webp",
+      "sizeKb": 113
+    },
+    {
+      "brand": "unibet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/unibet/Unibet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/unibet/unibet-logo.png",
+      "sizeKb": 26
+    },
+    {
+      "brand": "vbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/vbet/VictoryBet 2.webp",
+      "out": "07.SITES/site-01-ro/public/images/vbet/vbet-screenshot-main.webp",
+      "sizeKb": 66
+    },
+    {
+      "brand": "vbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/vbet/VictoryBet-Bonusuri-si-Promotii.webp",
+      "out": "07.SITES/site-01-ro/public/images/vbet/vbet-screenshot-bonus.webp",
+      "sizeKb": 93
+    },
+    {
+      "brand": "vbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/vbet/VictoryBet 2.webp",
+      "out": "07.SITES/site-01-ro/public/images/vbet/vbet-screenshot-app.webp",
+      "sizeKb": 66
+    },
+    {
+      "brand": "vbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/vbet/VictoryBet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/vbet/vbet-logo.png",
+      "sizeKb": 30
+    },
+    {
+      "brand": "winbet",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/winbet/Pariuri-live-Winbet.webp",
+      "out": "07.SITES/site-01-ro/public/images/winbet/winbet-screenshot-main.webp",
+      "sizeKb": 45
+    },
+    {
+      "brand": "winbet",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/winbet/Winbet-bonus-de-bun-venit.jpg",
+      "out": "07.SITES/site-01-ro/public/images/winbet/winbet-screenshot-bonus.webp",
+      "sizeKb": 58
+    },
+    {
+      "brand": "winbet",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/winbet/Oferta-de-Pariuri-Winbet.webp",
+      "out": "07.SITES/site-01-ro/public/images/winbet/winbet-screenshot-app.webp",
+      "sizeKb": 69
+    },
+    {
+      "brand": "winbet",
+      "role": "logo",
+      "status": "ok",
+      "src": "01.RAW/assets/winbet/Winbet-Logo.webp",
+      "out": "07.SITES/site-01-ro/public/images/winbet/winbet-logo.png",
+      "sizeKb": 28
+    },
+    {
+      "brand": "winmasters",
+      "role": "main",
+      "status": "ok",
+      "src": "01.RAW/assets/winmasters/Oferta-de-jocuri-Winmasters-Cazino.jpg",
+      "out": "07.SITES/site-01-ro/public/images/winmasters/winmasters-screenshot-main.webp",
+      "sizeKb": 133
+    },
+    {
+      "brand": "winmasters",
+      "role": "bonus",
+      "status": "ok",
+      "src": "01.RAW/assets/winmasters/Winmasters-bonus-fara-depunere-300-rotiri-50-RON.jpg",
+      "out": "07.SITES/site-01-ro/public/images/winmasters/winmasters-screenshot-bonus.webp",
+      "sizeKb": 174
+    },
+    {
+      "brand": "winmasters",
+      "role": "app",
+      "status": "ok",
+      "src": "01.RAW/assets/winmasters/Oferta-de-jocuri-Winmasters-Cazino.jpg",
+      "out": "07.SITES/site-01-ro/public/images/winmasters/winmasters-screenshot-app.webp",
+      "sizeKb": 133
+    },
+    {
+      "brand": "winmasters",
+      "role": "logo",
+      "status": "missing"
+    }
+  ]
+}

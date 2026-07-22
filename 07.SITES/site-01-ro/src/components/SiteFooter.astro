@@ -1,0 +1,39 @@
+---
+import { FOOTER_LINKS, SITE } from '../lib/site';
+---
+
+<footer class="mt-16 border-t border-border bg-primary text-slate-200">
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <div class="flex flex-col gap-6 md:flex-row md:justify-between">
+      <div>
+        <p class="font-heading text-lg font-bold text-white">{SITE.name}</p>
+        <p class="mt-1 max-w-sm text-sm text-slate-300">{SITE.tagline}</p>
+        <p class="mt-3 text-xs text-slate-400">{SITE.legalEntity} (placeholder)</p>
+      </div>
+      <ul class="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">
+        {
+          FOOTER_LINKS.map((l) => (
+            <li>
+              <a href={l.href} class="text-slate-200 no-underline hover:text-accent">
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a
+            href="https://onjn.gov.ro"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="text-slate-200 no-underline hover:text-accent"
+          >
+            ONJN
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="mt-8 border-t border-white/10 pt-4 text-xs text-slate-400">
+      Informații cu caracter publicitar. Jucați responsabil. 18+. Unele linkuri pot fi afiliate.
+    </p>
+  </div>
+</footer>

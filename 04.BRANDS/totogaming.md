@@ -4,7 +4,7 @@ slug: totogaming
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://totogaming.ro
 launched_ro: 2023
@@ -122,3 +122,11 @@ totogaming (222K, KD55)
 - ``01.RAW/assets/totogaming/Metode-Depunere-totogaming.jpg``
 - ``01.RAW/assets/totogaming/Validare-cont-totogaming.jpg``
 - ``01.RAW/assets/totogaming/Aviator-Totogaming.jpg``
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

@@ -203,7 +203,7 @@ async function main() {
     console.log(`\nПрервано пользователем. Завершено: ${stats.ok + stats.skipped} из ${stats.total}`);
   }
 
-  process.exit(stats.errors > 0 ? 1 : 0);
+  process.exit(stats.ok === 0 && stats.errors > 0 ? 1 : 0);
 }
 
 main().catch((err) => {

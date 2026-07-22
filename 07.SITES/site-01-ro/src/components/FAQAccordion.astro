@@ -1,0 +1,27 @@
+---
+interface Item {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  items: Item[];
+  title?: string;
+}
+
+const { items, title = 'Întrebări frecvente' } = Astro.props;
+---
+
+<section class="my-10">
+  <h2 class="font-heading text-2xl font-semibold text-primary">{title}</h2>
+  <div class="mt-4 space-y-2">
+    {
+      items.map((item) => (
+        <details class="rounded-lg border border-border bg-surface px-4 py-3 open:shadow-sm">
+          <summary class="cursor-pointer font-semibold text-text">{item.q}</summary>
+          <p class="mt-2 text-sm leading-relaxed text-muted">{item.a}</p>
+        </details>
+      ))
+    }
+  </div>
+</section>

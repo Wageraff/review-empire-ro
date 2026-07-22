@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BrandCard from '../components/BrandCard.astro';
+import TrustBar from '../components/TrustBar.astro';
+import { marked } from 'marked';
+import { brandFromUrl, displayBrand, loadPageBundle } from '../lib/pages';
+import { injectGallery, resolvePageGallery } from '../lib/images';
+import { getBrand } from '../data/brands';
+import { SITE } from '../lib/site';
+
+interface Props {
+  slug: string;
+  type: string;
+  url: string;
+  title: string;
+}
+
+const { slug, type, url, title } = Astro.props;
+const { draft, meta, bodyMd } = loadPageBundle(slug);
+const brandSlug = brandFromUrl(url, type);
+const brand = displayBrand(brandSlug);
+const brandInfo = getBrand(brandSlug);
+
+const gallery = resolvePageGallery(brandSlug, type, url);
+const rawHtml = marked.parse(bodyMd) as string;
+const html = injectGallery(rawHtml, gallery);
+
+const canonical = url.endsWith('/') || url === '/' ? url : `${url}/`;
+const pageTitle = meta.metaTitle || title || draft.frontmatter.title;
+const description = meta.metaDescription || SITE.tagline;
+const h1 = meta.h1 || title || draft.frontmatter.title;
+
+const isReview = type === 'REVIEW';
+const isBonus = type === 'BONUS-PAGE';
+const isCommercial = ['REVIEW', 'BONUS-PAGE', 'APP-REVIEW', 'RATING', 'FEATURE-RATING', 'SPORT-CATEGORY'].includes(type);
+
+let schema: object | undefined;
+if (isReview && brand) {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    itemReviewed: { '@type': 'Organization', name: brand },
+    author: { '@type': 'Organization', name: SITE.name },
+    dateModified: draft.frontmatter.updated || draft.frontmatter.created,
+    headline: h1,
+  };
+} else if (isBonus) {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Offer',
+    name: h1,
+    description,
+    url: new URL(canonical, SITE.url).toString(),
+  };
+} else {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: h1,
+    dateModified: draft.frontmatter.updated || draft.frontmatter.created,
+    author: { '@type': 'Organization', name: SITE.name },
+  };
+}
+
+const bonusHref = brandSlug ? `/bonusuri/bonus-de-bun-venit/${brandSlug}/` : '#';
+---
+
+<BaseLayout title={pageTitle} description={description} canonical={canonical} schemaJson={schema}>
+  {
+    isReview && brand ? (
+      <BrandCard
+        brand={brand}
+        rating={brandInfo?.rating || '—'}
+        license="ONJN Clasa I"
+        minDeposit="Verifică în cont"
+        ctaHref={bonusHref}
+        ctaLabel={`Bonus ${brand}`}
+        logoSrc={brandInfo?.logoSrc}
+        affiliateUrl={brandInfo?.affiliateUrl}
+        affiliateLabel={brandInfo?.ctaLabel || `Joacă la ${brand}`}
+      >
+        {h1}
+      </BrandCard>
+    ) : (
+      <section class="border-b border-border bg-primary text-white">
+        <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+          {brand && <p class="text-sm font-semibold text-amber-200">{brand}</p>}
+          <h1 class="font-heading mt-2 max-w-3xl text-3xl font-bold sm:text-4xl">{h1}</h1>
+          {
+            brandInfo?.affiliateUrl && (type === 'BONUS-PAGE' || type === 'APP-REVIEW' || type === 'BONUS-BRAND-HUB') && (
+              <a
+                href={brandInfo.affiliateUrl}
+                class="mt-6 inline-block rounded bg-accent px-5 py-2.5 text-sm font-semibold text-white no-underline hover:brightness-110"
+                rel="sponsored noopener noreferrer"
+                target="_blank"
+              >
+                {brandInfo.ctaLabel}
+              </a>
+            )
+          }
+        </div>
+      </section>
+    )
+  }
+  <TrustBar updated={draft.frontmatter.updated} showLicense={isCommercial} />
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <article class="bt-prose" set:html={html} />
+  </div>
+</BaseLayout>

@@ -1,0 +1,859 @@
+{
+  "_meta": {
+    "scope": "pariuri-sportive",
+    "excludes": [
+      "casino",
+      "cazino",
+      "cazinou",
+      "slot",
+      "sloturi",
+      "ruleta",
+      "blackjack",
+      "poker",
+      "jocuri de noroc",
+      "rotiri",
+      "loto"
+    ],
+    "longtail_min_volume": 50,
+    "generated": "regenerate-brand-nav-modifiers.py"
+  },
+  "brands": {
+    "superbet": {
+      "modifiers": [
+        [
+          "superbet club",
+          63000
+        ],
+        [
+          "verificare bilet superbet",
+          27000
+        ],
+        [
+          "superbet oferta",
+          10000
+        ],
+        [
+          "oferta de azi la superbet",
+          6500
+        ],
+        [
+          "oferta de azi la superbet fotbal",
+          6200
+        ],
+        [
+          "verifica bilet superbet",
+          3500
+        ],
+        [
+          "superclub superbet",
+          2600
+        ],
+        [
+          "card superbet",
+          2400
+        ],
+        [
+          "program superbet",
+          2100
+        ],
+        [
+          "card superbet club",
+          1900
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 50.0,
+      "total_volume": 125200
+    },
+    "betano": {
+      "modifiers": [
+        [
+          "betano live",
+          3800
+        ],
+        [
+          "betano bonus fara depunere",
+          2000
+        ],
+        [
+          "liga 1 betano",
+          1300
+        ],
+        [
+          "betano pariuri",
+          900
+        ],
+        [
+          "betano bonus",
+          800
+        ],
+        [
+          "cod promo betano",
+          800
+        ],
+        [
+          "betano pariuri sportive",
+          300
+        ],
+        [
+          "puncte de retragere betano cash",
+          250
+        ],
+        [
+          "betano aplicatie",
+          150
+        ],
+        [
+          "betano casa de pariuri",
+          50
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 40.0,
+      "total_volume": 10350
+    },
+    "casa-pariurilor": {
+      "modifiers": [
+        [
+          "verificare bilet casa pariurilor",
+          3300
+        ],
+        [
+          "scanare bilet casa pariurilor",
+          2400
+        ],
+        [
+          "verificare bilet casa pariurilor cod scurt",
+          2400
+        ],
+        [
+          "casa pariurilor oferta",
+          2400
+        ],
+        [
+          "aplicatie casa pariurilor",
+          1500
+        ],
+        [
+          "oferta casa pariurilor azi",
+          1500
+        ],
+        [
+          "casa pariurilor live",
+          1300
+        ],
+        [
+          "oferta completa casa pariurilor fotbal",
+          1200
+        ],
+        [
+          "casa pariurilor fotbal azi",
+          1100
+        ],
+        [
+          "casa pariurilor deschis acum",
+          1100
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 70.0,
+      "total_volume": 18200
+    },
+    "winbet": {
+      "modifiers": [
+        [
+          "winbet bonus",
+          700
+        ],
+        [
+          "winbet bonus fara depunere",
+          700
+        ],
+        [
+          "cod bonus winbet",
+          500
+        ],
+        [
+          "winbet 2",
+          500
+        ],
+        [
+          "winbet aplicatie",
+          350
+        ],
+        [
+          "winbet pariuri sportive",
+          150
+        ],
+        [
+          "winbet download",
+          150
+        ],
+        [
+          "winbet bonus de bun venit",
+          150
+        ],
+        [
+          "winbet pariuri",
+          100
+        ],
+        [
+          "winbet promotii",
+          90
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 20.0,
+      "total_volume": 3390
+    },
+    "totogaming": {
+      "modifiers": [
+        [
+          "totogaming bonus fara depunere",
+          2100
+        ],
+        [
+          "totogaming bonus",
+          1700
+        ],
+        [
+          "totogaming bonus de bun venit",
+          900
+        ],
+        [
+          "totogaming pareri",
+          600
+        ],
+        [
+          "bonus aniversar totogaming",
+          250
+        ],
+        [
+          "totogaming am",
+          250
+        ],
+        [
+          "totogaming aplicatie",
+          100
+        ],
+        [
+          "retragere totogaming",
+          100
+        ],
+        [
+          "totogaming agentie",
+          70
+        ],
+        [
+          "totogaming oferta",
+          70
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 10.0,
+      "total_volume": 6140
+    },
+    "unibet": {
+      "modifiers": [
+        [
+          "unibet pariuri sportive",
+          800
+        ],
+        [
+          "unibet pariuri",
+          800
+        ],
+        [
+          "roata unibet",
+          600
+        ],
+        [
+          "unibet bonus",
+          450
+        ],
+        [
+          "unibet bonus fara depunere",
+          450
+        ],
+        [
+          "unibet live",
+          400
+        ],
+        [
+          "unibet aplicatie",
+          200
+        ],
+        [
+          "unibet fotbal",
+          200
+        ],
+        [
+          "unibet retragere",
+          150
+        ],
+        [
+          "unibet live streaming football",
+          70
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 40.0,
+      "total_volume": 4120
+    },
+    "fortuna": {
+      "modifiers": [
+        [
+          "fortuna palace",
+          30000
+        ],
+        [
+          "fortuna bet",
+          11000
+        ],
+        [
+          "verificare bilet fortuna",
+          9600
+        ],
+        [
+          "fortuna pariuri",
+          5100
+        ],
+        [
+          "fortuna pariuri sportive",
+          4800
+        ],
+        [
+          "e fortuna",
+          4800
+        ],
+        [
+          "fortuna rezultate fotbal ieri",
+          2700
+        ],
+        [
+          "fortuna verificare bilet cod scurt",
+          1500
+        ],
+        [
+          "scanare bilet fortuna",
+          1500
+        ],
+        [
+          "fortuna fotbal",
+          1200
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 70.0,
+      "total_volume": 72200
+    },
+    "netbet": {
+      "modifiers": [
+        [
+          "netbet sport",
+          2600
+        ],
+        [
+          "netbet bonus fara depunere",
+          1500
+        ],
+        [
+          "netbet pariuri sportive",
+          700
+        ],
+        [
+          "netbet bonus",
+          600
+        ],
+        [
+          "cod bonus netbet",
+          500
+        ],
+        [
+          "netbet live",
+          300
+        ],
+        [
+          "netbet pariuri",
+          250
+        ],
+        [
+          "retragere netbet",
+          200
+        ],
+        [
+          "netbet aplicatie",
+          200
+        ],
+        [
+          "netbet pariuri live",
+          200
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 30.0,
+      "total_volume": 7050
+    },
+    "maxbet": {
+      "modifiers": [
+        [
+          "maxbet bonus fara depunere",
+          1300
+        ],
+        [
+          "cod bonus maxbet",
+          1100
+        ],
+        [
+          "maxbet online",
+          900
+        ],
+        [
+          "maxbet bonus",
+          500
+        ],
+        [
+          "cod bonus maxbet fara depunere",
+          300
+        ],
+        [
+          "maxbet pariuri",
+          150
+        ],
+        [
+          "maxbet pariuri sportive",
+          150
+        ],
+        [
+          "aplicatie maxbet",
+          150
+        ],
+        [
+          "maxbet live",
+          100
+        ],
+        [
+          "maxbet agentii",
+          70
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 20.0,
+      "total_volume": 4720
+    },
+    "getsbet": {
+      "modifiers": [
+        [
+          "gets bet fotbal",
+          10000
+        ],
+        [
+          "gets bet pariuri sportive",
+          8500
+        ],
+        [
+          "gets bet fotbal azi",
+          2900
+        ],
+        [
+          "verificare bilet gets bet fotbal",
+          2500
+        ],
+        [
+          "gets bet pariuri",
+          2000
+        ],
+        [
+          "verificare bilet gets bet",
+          1700
+        ],
+        [
+          "aplicatia gets bet",
+          1300
+        ],
+        [
+          "scanare bilet gets bet",
+          900
+        ],
+        [
+          "gets bet verificare bilet live",
+          700
+        ],
+        [
+          "gets bet program azi",
+          500
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 80.0,
+      "total_volume": 31000
+    },
+    "vbet": {
+      "modifiers": [
+        [
+          "vbet bonus fara depunere",
+          1200
+        ],
+        [
+          "vbet bonus",
+          700
+        ],
+        [
+          "vbet cod promo",
+          350
+        ],
+        [
+          "vbet pareri",
+          100
+        ],
+        [
+          "cod promotional vbet",
+          90
+        ],
+        [
+          "vbet app",
+          70
+        ],
+        [
+          "roata vbet",
+          70
+        ]
+      ],
+      "sparse_modifiers": true,
+      "sport_share_pct": 0.0,
+      "total_volume": 2580,
+      "pariuri_secondary": "brand este casino-first, pariuri scope limitat"
+    },
+    "don-ro": {
+      "modifiers": [
+        [
+          "don.ro bonus fara depunere",
+          400
+        ],
+        [
+          "don.ro pareri",
+          250
+        ],
+        [
+          "don.ro bonus",
+          200
+        ],
+        [
+          "don.ro patron",
+          60
+        ],
+        [
+          "don.ro păreri",
+          50
+        ]
+      ],
+      "sparse_modifiers": true,
+      "sport_share_pct": 0.0,
+      "total_volume": 960,
+      "pariuri_secondary": "brand este casino-first, pariuri scope limitat"
+    },
+    "favbet": {
+      "modifiers": [
+        [
+          "favbet bonus fara depunere",
+          600
+        ],
+        [
+          "favbet cod promo",
+          350
+        ],
+        [
+          "favbet pareri",
+          150
+        ],
+        [
+          "favbet pariuri sportive",
+          100
+        ],
+        [
+          "favbet bonus",
+          100
+        ],
+        [
+          "cod promo favbet fara depunere",
+          100
+        ],
+        [
+          "cod promotional favbet",
+          100
+        ],
+        [
+          "favbet oferta",
+          70
+        ],
+        [
+          "cod promo favbet 2026",
+          70
+        ],
+        [
+          "favbet pariuri sportivefavbet",
+          60
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 30.0,
+      "total_volume": 1700
+    },
+    "winmasters": {
+      "modifiers": [
+        [
+          "winmasters bonus fara depunere",
+          700
+        ],
+        [
+          "winmasters bonus",
+          250
+        ],
+        [
+          "winmasters cod bonus",
+          200
+        ],
+        [
+          "winmasters retragere",
+          150
+        ],
+        [
+          "winmasters pariuri",
+          150
+        ],
+        [
+          "aplicatie winmasters",
+          150
+        ],
+        [
+          "winmasters com pariuri sportive",
+          150
+        ],
+        [
+          "winmasters bonus de bun venit",
+          150
+        ],
+        [
+          "winmasters live",
+          100
+        ],
+        [
+          "winmasters bonus code",
+          100
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 20.0,
+      "total_volume": 2100
+    },
+    "betfair": {
+      "modifiers": [
+        [
+          "betfair exchange",
+          1600
+        ],
+        [
+          "betfair sportsbook",
+          1000
+        ],
+        [
+          "betfair bonus fara depunere",
+          300
+        ],
+        [
+          "pariuri betfair",
+          200
+        ],
+        [
+          "betfair bonus",
+          200
+        ],
+        [
+          "betfair romania development",
+          200
+        ],
+        [
+          "betfair online",
+          200
+        ],
+        [
+          "betfair live",
+          150
+        ],
+        [
+          "betfair aplicatie",
+          150
+        ],
+        [
+          "betfair oferta de bun venit",
+          60
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 30.0,
+      "total_volume": 4060
+    },
+    "pokerstars": {
+      "modifiers": [
+        [
+          "pokerstars casino",
+          5100
+        ],
+        [
+          "pokerstars online",
+          400
+        ],
+        [
+          "pokerstars download",
+          350
+        ],
+        [
+          "pokerstars bonus fara depunere",
+          300
+        ],
+        [
+          "pokerstars bonus code",
+          250
+        ],
+        [
+          "bonus pokerstars",
+          200
+        ],
+        [
+          "pokerstars promotii",
+          150
+        ],
+        [
+          "pokerstars casino bonus fara depunere",
+          150
+        ],
+        [
+          "pokerstars pariuri",
+          100
+        ],
+        [
+          "pokerstars live",
+          60
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 10.0,
+      "total_volume": 7060
+    },
+    "888sport": {
+      "modifiers": [
+        [
+          "bonus 888 sport",
+          150
+        ],
+        [
+          "888 sport online",
+          70
+        ],
+        [
+          "888 sport live",
+          60
+        ]
+      ],
+      "sparse_modifiers": true,
+      "sport_share_pct": 0.0,
+      "total_volume": 280,
+      "pariuri_secondary": "brand este casino-first, pariuri scope limitat"
+    },
+    "12xbet": {
+      "modifiers": [
+        [
+          "12xbet ro bonus fara depunere",
+          200
+        ],
+        [
+          "cod bonus 12xbet",
+          70
+        ],
+        [
+          "12xbet ro cod bonus",
+          60
+        ]
+      ],
+      "sparse_modifiers": true,
+      "sport_share_pct": 0.0,
+      "total_volume": 330,
+      "pariuri_secondary": "brand este casino-first, pariuri scope limitat"
+    },
+    "stanleybet": {
+      "modifiers": [
+        [
+          "stanleybet oferta fotbal",
+          2700
+        ],
+        [
+          "stanleybet oferta",
+          1800
+        ],
+        [
+          "verificare bilet stanleybet",
+          700
+        ],
+        [
+          "cod bilet stanleybet",
+          700
+        ],
+        [
+          "stanleybet fotbal",
+          500
+        ],
+        [
+          "verificare bilet stanleybet dupa cod",
+          400
+        ],
+        [
+          "scanare bilet stanleybet",
+          400
+        ],
+        [
+          "stanleybet pariuri",
+          400
+        ],
+        [
+          "stanleybet verificare bilet fotbal",
+          350
+        ],
+        [
+          "program stanleybet",
+          250
+        ]
+      ],
+      "sparse_modifiers": false,
+      "sport_share_pct": 90.0,
+      "total_volume": 8200
+    },
+    "topbet": {
+      "modifiers": [
+        [
+          "topbet bonus fara depunere",
+          700
+        ],
+        [
+          "pariuri topbet",
+          80
+        ],
+        [
+          "topbet bonus",
+          60
+        ],
+        [
+          "topbet cod bonus",
+          50
+        ],
+        [
+          "topbet fara depunere",
+          50
+        ]
+      ],
+      "sparse_modifiers": true,
+      "sport_share_pct": 20.0,
+      "total_volume": 940,
+      "pariuri_secondary": "brand este casino-first, pariuri scope limitat"
+    }
+  }
+}

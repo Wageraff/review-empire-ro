@@ -1,0 +1,89 @@
+---
+interface Props {
+  brand: string;
+  rating?: string;
+  license?: string;
+  minDeposit?: string;
+  ctaHref?: string;
+  ctaLabel?: string;
+  logoSrc?: string;
+  affiliateUrl?: string;
+  affiliateLabel?: string;
+}
+
+const {
+  brand,
+  rating = '—',
+  license = 'ONJN Clasa I',
+  minDeposit = 'Verifică în cont',
+  ctaHref = '#',
+  ctaLabel = 'Vezi oferta',
+  logoSrc,
+  affiliateUrl,
+  affiliateLabel = 'Joacă acum',
+} = Astro.props;
+---
+
+<section class="border-b border-border bg-gradient-to-br from-primary to-[#243656] text-white">
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+    <div class="flex flex-wrap items-center gap-4">
+      {
+        logoSrc && (
+          <div class="rounded-lg bg-white/95 px-3 py-2 shadow-sm">
+            <img
+              src={logoSrc}
+              alt={brand}
+              width="140"
+              height="56"
+              class="h-12 w-auto max-w-[9rem] object-contain"
+            />
+          </div>
+        )
+      }
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wide text-amber-200/90">{brand}</p>
+        <h1 class="font-heading mt-1 max-w-3xl text-3xl font-bold sm:text-4xl">
+          <slot />
+        </h1>
+      </div>
+    </div>
+    <dl class="mt-6 grid max-w-2xl grid-cols-2 gap-4 text-sm sm:grid-cols-3">
+      <div>
+        <dt class="text-slate-300">Rating</dt>
+        <dd class="text-lg font-semibold">{rating}</dd>
+      </div>
+      <div>
+        <dt class="text-slate-300">Licență</dt>
+        <dd class="font-semibold">{license}</dd>
+      </div>
+      <div>
+        <dt class="text-slate-300">Depunere min.</dt>
+        <dd class="font-semibold">{minDeposit}</dd>
+      </div>
+    </dl>
+    <div class="mt-6 flex flex-wrap items-center gap-3">
+      {
+        affiliateUrl && (
+          <a
+            href={affiliateUrl}
+            class="inline-block rounded bg-accent px-5 py-2.5 text-sm font-semibold text-white no-underline hover:brightness-110"
+            rel="sponsored noopener noreferrer"
+            target="_blank"
+          >
+            {affiliateLabel}
+          </a>
+        )
+      }
+      {
+        ctaHref !== '#' && (
+          <a
+            href={ctaHref}
+            class="inline-block rounded border border-white/40 px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-white/10"
+          >
+            {ctaLabel}
+          </a>
+        )
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,457 @@
+{
+  "ahrefs": {
+    "keywords_csv": 36,
+    "seeds_csv": 49,
+    "content_gap": true,
+    "top_pages": 5,
+    "backlinks": 11,
+    "organic_keywords_exports": 12,
+    "other_root_csv": 17,
+    "unique_keywords": 16338,
+    "volume_min": 10,
+    "volume_max": 2040000,
+    "volume_median": 200,
+    "kd_min": 0.0,
+    "kd_max": 91.0,
+    "kd_median": 6.0,
+    "volume_samples": 131248,
+    "kd_samples": 127247
+  },
+  "discovery": {
+    "domains": {
+      "10pariuri": 834,
+      "beturi": 495,
+      "biletu-zilei": 547,
+      "legalbet": 905,
+      "pariuriexpert": 105,
+      "pariurix": 2463,
+      "pontul-zilei": 69,
+      "xbets": 224
+    },
+    "raw_total": 5642,
+    "deduped": 4623,
+    "report": {
+      "generated": "2026-07-13",
+      "sources": [
+        "10pariuri",
+        "beturi",
+        "biletu-zilei",
+        "legalbet",
+        "pariuriexpert",
+        "pariurix",
+        "pontul-zilei",
+        "xbets"
+      ],
+      "raw_rows_by_site": {
+        "10pariuri": 834,
+        "beturi": 495,
+        "biletu-zilei": 547,
+        "legalbet": 905,
+        "pariuriexpert": 105,
+        "pariurix": 2463,
+        "pontul-zilei": 69,
+        "xbets": 224
+      },
+      "after_filter_unique": 5459,
+      "after_dedup": 4623,
+      "by_category": {
+        "reviews": 200,
+        "bonuses": 897,
+        "guides": 1159,
+        "ratings": 77,
+        "sport-categories": 20,
+        "apps": 123,
+        "payments": 130,
+        "uncategorized": 344,
+        "retail": 35,
+        "player-reviews": 41,
+        "bonuses_used": 897,
+        "bonuses_unused": 1597
+      },
+      "by_category_by_domain": {
+        "reviews": {
+          "10pariuri": 86,
+          "beturi": 43,
+          "biletu-zilei": 108,
+          "pariuriexpert": 32,
+          "pariurix": 54,
+          "xbets": 9
+        },
+        "bonuses": {
+          "10pariuri": 130,
+          "pariuriexpert": 2,
+          "xbets": 82,
+          "beturi": 57,
+          "biletu-zilei": 77,
+          "legalbet": 233,
+          "pariurix": 1826
+        },
+        "guides": {
+          "10pariuri": 304,
+          "beturi": 183,
+          "legalbet": 331,
+          "xbets": 39,
+          "biletu-zilei": 102,
+          "pariuriexpert": 38,
+          "pontul-zilei": 41,
+          "pariurix": 111
+        },
+        "ratings": {
+          "10pariuri": 2,
+          "beturi": 1,
+          "biletu-zilei": 12,
+          "pariurix": 19,
+          "xbets": 2
+        },
+        "sport-categories": {
+          "10pariuri": 3,
+          "biletu-zilei": 11,
+          "pariurix": 5,
+          "legalbet": 1
+        },
+        "apps": {
+          "10pariuri": 36,
+          "biletu-zilei": 46,
+          "legalbet": 22,
+          "pariuriexpert": 13,
+          "beturi": 4,
+          "pariurix": 2
+        },
+        "payments": {
+          "10pariuri": 68,
+          "biletu-zilei": 23,
+          "pariurix": 28,
+          "beturi": 7,
+          "pariuriexpert": 4
+        },
+        "uncategorized": {
+          "10pariuri": 36,
+          "pariuriexpert": 7,
+          "biletu-zilei": 72,
+          "xbets": 26,
+          "beturi": 36,
+          "pariurix": 249
+        }
+      },
+      "by_domain_total": {
+        "10pariuri": 665,
+        "beturi": 331,
+        "biletu-zilei": 451,
+        "pariuriexpert": 96,
+        "pariurix": 2294,
+        "legalbet": 587,
+        "xbets": 158,
+        "pontul-zilei": 41
+      },
+      "fix_url_applied": "2026-07-13",
+      "review_brands": [
+        "12xbet",
+        "32rosu",
+        "777-ro",
+        "888",
+        "888casino",
+        "888sport",
+        "admiral",
+        "admiralbet",
+        "baumbet",
+        "bet7",
+        "betano",
+        "betfair",
+        "betmen",
+        "betone",
+        "betstars",
+        "bilion",
+        "casa-pariurilor",
+        "cashpot",
+        "casino-royale",
+        "clover-bet",
+        "conti",
+        "conticazino",
+        "don",
+        "elite-slots",
+        "excelbet",
+        "favbet",
+        "fortuna",
+        "frank",
+        "game-world",
+        "gets-bet",
+        "gpcasino",
+        "hotspins",
+        "jokercasino",
+        "king",
+        "kingcasino",
+        "lady",
+        "las-vegas",
+        "luck",
+        "lucky-seven",
+        "magnumbet",
+        "manhattan",
+        "maxbet",
+        "maxwin",
+        "million",
+        "mozzart",
+        "mr-bit",
+        "mr-play",
+        "mrbit",
+        "napoleon",
+        "netbet",
+        "one",
+        "pacanele-ro",
+        "pariuriplus",
+        "player",
+        "playgg",
+        "pokerstars",
+        "power-bet",
+        "powerbet",
+        "prima",
+        "princess",
+        "prowin",
+        "publicwin",
+        "real-bet",
+        "redsevens",
+        "river-bet",
+        "royal",
+        "seven",
+        "slotv",
+        "spin",
+        "sportingbet",
+        "stanleybet",
+        "superbet",
+        "swiper",
+        "topbet",
+        "total-bet",
+        "toto-gaming",
+        "totogaming",
+        "ultrabet",
+        "unibet",
+        "victory-bet",
+        "victorybet",
+        "vip-cazino",
+        "vipbet",
+        "vivabet",
+        "vlad",
+        "vlad-cazino",
+        "win2",
+        "winbet",
+        "winboss",
+        "winmasters",
+        "winner",
+        "zinx"
+      ],
+      "review_brands_total": 92
+    }
+  },
+  "clips": {
+    "reviews": {
+      "kept": 242,
+      "trash": 52,
+      "avg_words": 4333
+    },
+    "bonuses": {
+      "kept": 933,
+      "trash": 93,
+      "avg_words": 2600
+    },
+    "guides": {
+      "kept": 1135,
+      "trash": 15,
+      "avg_words": 3163
+    },
+    "ratings": {
+      "kept": 78,
+      "trash": 0,
+      "avg_words": 4469
+    },
+    "sport-categories": {
+      "kept": 20,
+      "trash": 0,
+      "avg_words": 2798
+    },
+    "apps": {
+      "kept": 108,
+      "trash": 0,
+      "avg_words": 2081
+    },
+    "payments": {
+      "kept": 130,
+      "trash": 0,
+      "avg_words": 2484
+    },
+    "retail": {
+      "kept": 35,
+      "trash": 0,
+      "avg_words": 4094
+    },
+    "player-reviews": {
+      "kept": 41,
+      "trash": 0,
+      "avg_words": 3006
+    }
+  },
+  "clip_top_domains": [
+    [
+      "10pariuri.ro",
+      611
+    ],
+    [
+      "legalbet.ro",
+      532
+    ],
+    [
+      "pariurix.com",
+      519
+    ],
+    [
+      "biletu-zilei.com",
+      355
+    ],
+    [
+      "beturi.ro",
+      312
+    ],
+    [
+      "xbets.ro",
+      96
+    ],
+    [
+      "pariuriexpert.ro",
+      77
+    ],
+    [
+      "pontul-zilei.com",
+      41
+    ]
+  ],
+  "brands": [
+    {
+      "slug": "12xbet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "888sport",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 124
+    },
+    {
+      "slug": "betano",
+      "fm_fields": 3,
+      "body_sections": 9,
+      "lines": 132
+    },
+    {
+      "slug": "betfair",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "casa-pariurilor",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 132
+    },
+    {
+      "slug": "don-ro",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "favbet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 124
+    },
+    {
+      "slug": "fortuna",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 131
+    },
+    {
+      "slug": "getsbet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 124
+    },
+    {
+      "slug": "maxbet",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 128
+    },
+    {
+      "slug": "netbet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "pokerstars",
+      "fm_fields": 4,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "stanleybet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    },
+    {
+      "slug": "superbet",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 132
+    },
+    {
+      "slug": "topbet",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 128
+    },
+    {
+      "slug": "totogaming",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 124
+    },
+    {
+      "slug": "unibet",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 132
+    },
+    {
+      "slug": "vbet",
+      "fm_fields": 3,
+      "body_sections": 8,
+      "lines": 131
+    },
+    {
+      "slug": "winbet",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 124
+    },
+    {
+      "slug": "winmasters",
+      "fm_fields": 3,
+      "body_sections": 7,
+      "lines": 128
+    }
+  ],
+  "wiki": {
+    "brands": 20,
+    "bonuses": 0,
+    "sports": 0,
+    "guides-concepts": 0,
+    "payments": 0,
+    "apps": 0,
+    "regulatory": 8,
+    "root": 3
+  }
+}

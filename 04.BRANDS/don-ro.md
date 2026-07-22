@@ -4,7 +4,7 @@ slug: don-ro
 type: brand-dossier
 lang: ro-RO
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-14
 
 official_url: https://don.ro
 launched_ro: 2023
@@ -34,6 +34,9 @@ related_apps: [[apps/aplicatie-android]], [[apps/aplicatie-ios]]
 
 sources: ['01.RAW/web-clips/reviews/Don Sport pariuri sportive - bonus de bun venit 500 RON.md', '01.RAW/ahrefs/keywords/google_ro_don.ro_matching-terms_2026-07-10_09-13-35.csv']
 related: ['[[brands-overview]]', '[[operatori-licentiati-onjn-2026]]', '[[cadru-legal-jocuri-noroc-romania]]', '[[brands/don-ro]]', '[[bonuses/bonus-de-bun-venit]]', '[[apps/aplicatie-android]]']
+# Stage 2 flags
+pariuri_secondary: true
+
 ---
 
 # Don.ro — Dosar brand
@@ -126,3 +129,11 @@ don.ro (1.9K, KD44)
 ## Note interne
 
 Înlocuiește AdmiralBet.
+
+## Legături wiki (Stage 1)
+
+- Bonusuri: [[bonuses/bonus-de-bun-venit]], [[bonuses/fara-depunere]], [[bonuses/pariu-fara-risc]]
+- Plăți: [[payments/carduri-bancare]], [[payments/paysafecard]], [[payments/skrill]]
+- App: [[apps/aplicatie-android]], [[apps/aplicatie-ios]], [[apps/live-betting-mobil]]
+- Sport: [[sports/fotbal]], [[sports/tenis]], [[sports/baschet]]
+- Ghiduri: [[guides-concepts/live-betting]], [[guides-concepts/cash-out]], [[guides-concepts/rulaj-rollover]]

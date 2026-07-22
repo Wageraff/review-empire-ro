@@ -1,0 +1,9 @@
+# Drafts directory — content pipeline
+
+Drafts live here during SEO Plan → Copy → Linguist → Ready workflow.
+
+Status flow: `draft` → `seo-planned` → `copy-written` → `linguist-checked` → `ready`
+
+Only `status: ready` goes to Astro build.
+
+See: `.cursorrules` CONTENT PIPELINE section.
