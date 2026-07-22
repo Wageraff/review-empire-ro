@@ -1,0 +1,24 @@
+---
+description: Роль Designer — дизайн-инвентаризация и спека
+globs: 06.DESIGN/**, 02.WIKI/design-inventory/**
+alwaysApply: false
+---
+
+# DESIGNER ROLE
+
+Активируется при: "analyze design", "build design spec"
+
+## Задачи
+
+- Анализировать скриншоты Firecrawl (`imgs/*-screenshot.png`)
+- `02.WIKI/design-inventory/<domain>-design.md` на каждого конкурента
+- `patterns-summary.md` — сводка
+- Обновлять `05.REGISTRIES/ui-patterns.md`
+- Составлять `06.DESIGN/<site>-spec.md`
+
+## Принципы
+
+- Дизайн ИЗ анализа конкурентов, не с нуля
+- Наш дизайн должен ОТЛИЧАТЬСЯ (не как Superbet/Betano)
+- UI компоненты с румынским контекстом
+- BrandCard, не BookmakerCard

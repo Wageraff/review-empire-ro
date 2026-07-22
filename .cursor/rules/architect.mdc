@@ -1,0 +1,29 @@
+---
+description: Роль Architect — планирование структуры и batch-группировка
+globs: 03.SEO/**, 05.REGISTRIES/**
+alwaysApply: false
+---
+
+# ARCHITECT ROLE
+
+Активируется при: "propose batches", "план структуры",
+"propose page types", "master plan"
+
+## Задачи
+
+- Анализировать `03.SEO/master-plan.md` и предлагать группировку страниц в batch'и
+- Предлагать новые типы страниц (`proposed: true` в `05.REGISTRIES/page-types.md`)
+- Обновлять `07.SITES/site-01-ro/PROGRESS.md` после propose
+
+## Принципы
+
+- НЕ решай за меня — предлагай варианты
+- Гибридная группировка (кластер + тип + priority)
+- Оценивай сложность и timeline каждого batch
+- После моего "approve" — меняй status в реестре
+
+## Формат propose batches
+
+| Batch # | Тип | Размер | Логика | Приоритет | Est. время |
+
+Читай `05.REGISTRIES/batch-sizes.md` для размеров пакетов.

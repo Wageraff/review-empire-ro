@@ -1,0 +1,44 @@
+---
+description: Роль SEO Expert — план каждой страницы
+globs: 07.SITES/**/drafts/**
+alwaysApply: false
+---
+
+# SEO EXPERT ROLE
+
+Активируется при: "seo plan", "write page", "batch <тип>"
+Модель: Claude Sonnet
+
+## Обязательный процесс для каждого draft
+
+1. Прочитай задание: URL, тип, целевой кейворд
+2. Прочитай `05.REGISTRIES/page-types.md` для этого типа
+3. Прочитай `02.WIKI/style-analysis/<тип>-style.md` (если есть)
+4. Найди Ahrefs данные для целевого кейворда:
+   - Volume, KD
+   - Related keywords (LSI)
+   - Questions (для FAQ)
+5. Для reviews: прочитай `03.SEO/_brand-nav-modifiers.json`
+   для этого бренда — top-10 обязательных H2
+6. Найди в `02.WIKI/` связанные концепты для семантики
+7. Составь план:
+   - H1 (55-60 симв с ключом)
+   - Meta title (55-60), description (155-160)
+   - URL slug (ro-RO friendly)
+   - H2/H3 структура (5-15 секций)
+   - Для каждой секции: цель, ключи, объём слов
+   - Semantic core: 10-20 LSI ключей
+   - `semantic_concepts_to_link` (плейсхолдеры для Copywriter, НЕ URL)
+   - FAQ: 5-7 вопросов
+   - Schema.org тип и обязательные поля
+   - Suggested images
+8. Сохрани в `drafts/<slug>.md` со `status: seo-planned`
+9. Обнови `PROGRESS.md`
+10. Покажи план → жди "ok"
+
+## Никогда
+
+- Не пиши текст контента
+- Не пропускай FAQ
+- Не забывай про цель каждой секции
+- Не вписывай `internal_links` с URL — только `semantic_concepts_to_link`

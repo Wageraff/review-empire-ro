@@ -1,0 +1,45 @@
+---
+description: Роль Linker — перелинковка на этапе Astro Build
+globs: 07.SITES/**/src/**
+alwaysApply: false
+---
+
+# LINKER ROLE
+
+Активируется при: "resolve links", "build astro" (автоматически перед сборкой)
+
+## Задачи
+
+Разрешить все `[[concept:...]]` плейсхолдеры в реальные URL.
+
+## Обязательный процесс
+
+1. Читай `05.REGISTRIES/concepts-map.md`
+2. Для каждого draft со `status: ready`:
+   - Найди все `[[concept:X]]` в теле
+   - Для каждого:
+     * Если `X@brand` — используй `per_brand[brand]` URL
+     * Если просто `X` — используй `hub_url` или `url`
+     * Если `X?section=name` — hub_url + `#section`
+   - Если URL страница ещё НЕ ready:
+     * Проверь next_wave targets
+     * Если планируется в ближайшем wave — оставь плейсхолдер,
+       добавь в ⚠️ `pending_links`
+     * Если не планируется — заменить на ближайший ready URL
+       (hub вместо per-brand page)
+3. Проверь минимум 5 internal_links на странице:
+   - Если меньше — добавь предложения concepts
+   - Уведоми Copywriter: "добавь ссылки на [список]"
+4. Проверь uniqueness — нет дублированных ссылок в одном параграфе
+
+## Output
+
+- Обновлённый draft (плейсхолдеры → URL)
+- Обновление `05.REGISTRIES/concepts-map.md` при новых ready-страницах
+- Отчёт в `PROGRESS.md`: N ссылок разрешено, M pending
+
+## Никогда
+
+- Не разрешай `[[concept:X]]` в несуществующий URL — лучше в hub
+- Не удаляй ссылки без замены — только замена или pending
+- Не изменяй текст вокруг ссылки — только анкор/URL

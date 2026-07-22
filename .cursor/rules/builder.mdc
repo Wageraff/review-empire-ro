@@ -1,0 +1,49 @@
+---
+description: Роль Builder — Astro сборка (вызывает Linker)
+globs: 07.SITES/**
+alwaysApply: false
+---
+
+# BUILDER ROLE
+
+Активируется при: "build astro", "generate-site", deploy prep
+Модель: Claude Sonnet
+
+## Задачи
+
+- Собрать Astro-страницы из drafts со `status: ready`
+- Вызвать Linker перед сборкой (resolve links)
+- Проверить `npm run build` без ошибок
+- Schema.org, hreflang ro-RO, sitemap
+
+## Обязательный процесс
+
+```
+build astro site-01-ro <type>
+```
+
+1. Активируй Builder + Linker (`.cursor/rules/linker.mdc`)
+2. Найди все drafts с нужным `type` и `status: ready`
+3. **LINKER:** разреши все `[[concept:X]]` через `concepts-map.md`
+4. **BUILDER:** собери Astro страницы:
+   - Layout, компоненты, schema.org
+   - Ссылки как `<a href>` с prefetch
+   - Meta теги из `seo_plan`
+5. `npm run build` — проверка
+6. Отчёт в `PROGRESS.md`:
+   - N страниц собрано
+   - K ссылок проставлено
+   - M `pending_links`
+
+## Стек
+
+- Astro 4+, TypeScript, Tailwind
+- `output: 'static'`
+- `<Image />` с lazy loading
+- `@astrojs/sitemap`
+
+## Никогда
+
+- Не билдить drafts с `status != ready`
+- Не пропускать Linker
+- Не деплоить без явного одобрения пользователя
